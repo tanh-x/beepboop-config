@@ -1,0 +1,47 @@
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXYBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABDQEAAAMAAAd0AAADpgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAANX/////AAAAAAAAAAA=
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+
+[Desktop Entry]
+DefaultProfile=yakuake-profile.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+RemoveWindowTitleBarAndFrame=true
+
+[MainWindow]
+1920x1080 screen: Height=1028
+1920x1080 screen: Width=1040
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=8
+1920x1080 screen: YPosition=44
+2 screens: Height=1064
+2 screens: Width=946
+2 screens: XPosition=1928
+2 screens: YPosition=8
+3440x1440 screen: Height=1388
+3440x1440 screen: Width=971
+3440x1440 screen: XPosition=8
+3440x1440 screen: YPosition=44
+HDMI-1=HDMI-1
+HDMI-1 eDP-1=HDMI-1
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP=eDP
+eDP Height 1920x1080=554
+eDP Width 1920x1080=911
+eDP XPosition 1920x1080=504
+eDP YPosition 1920x1080=254
+eDP-1=eDP-1
+eDP-1 Height 1920x1080 eDP-1=504
+eDP-1 Width 1920x1080 eDP-1=943
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1920x1080 eDP-1=49
+eDP-1 YPosition 1920x1080 eDP-1=107
+
+[SplitView]
+SplitViewVisibility=AlwaysHideSplitHeader
+
+[UiSettings]
+ColorScheme=

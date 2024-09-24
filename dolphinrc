@@ -1,0 +1,61 @@
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[ContentDisplay]
+DirectorySizeCount=false
+DirectorySizeMode=ContentSize
+RecursiveDirectorySizeLimit=8
+UsePermissionsFormat=NumericFormat
+
+[DetailsMode]
+IconSize=22
+PreviewSize=22
+SidePadding=0
+UseSystemFont=false
+
+[ExtractDialog]
+1920x1080 screen: Height=516
+1920x1080 screen: Width=1214
+2 screens: Height=560
+2 screens: Width=1239
+DirHistory[$e]=/run/media/kew/6F7F-D07F/,$HOME/things/_w/uq-paper-24/data/paderborn/original/,$HOME/programs/cs327/,$HOME/things/_w/uq-paper-24/data/paderborn/original/val/,$HOME/things/!w/gbnw-battery/,$HOME/things/!w/uconn-xai-uq/,$HOME/programs/
+eDP-1 Height 1920x1080=544
+eDP-1 Width 1920x1080=1226
+
+[General]
+ShowFullPath=true
+Version=202
+ViewPropsTimestamp=2022,7,29,9,19,53.832
+
+[IconsMode]
+IconSize=96
+PreviewSize=128
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1920x1080 screen: Height=588
+1920x1080 screen: Width=443
+2 screens: Height=444
+2 screens: Width=346
+3440x1440 screen: Height=446
+3440x1440 screen: Width=352
+eDP Height 1920x1080=631
+eDP Width 1920x1080=409
+eDP-1 Height 1920x1080=434
+eDP-1 Height 1920x1080 eDP-1=436
+eDP-1 Width 1920x1080=337
+eDP-1 Width 1920x1080 eDP-1=359
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=oku,inkscape,kate,code,vlc,tiled,vl
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,ffmpegthumbs

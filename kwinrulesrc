@@ -1,0 +1,12 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[83cb73c0-6882-4200-9350-1dcde75ff092]
+Description=window-transparency
+opacityactive=87
+opacityactiverule=2
+opacityinactive=82
+opacityinactiverule=2
+types=1
+wmclass=dolphin
+wmclassmatch=3

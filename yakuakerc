@@ -1,0 +1,19 @@
+[Animation]
+Frames=18
+
+[Appearance]
+Skin=Slate
+SkinInstalledWithKns=true
+
+[Desktop Entry]
+DefaultProfile=yakuake-profile.profile
+
+[Dialogs]
+FirstRun=false
+
+[KFileDialog Settings]
+iconViewIconSize=64
+
+[Window]
+Height=52
+Width=60

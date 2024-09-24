@@ -1,0 +1,42 @@
+[$Version]
+update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[Annotations]
+annotationToolType=6
+freehandStrokeColor=38,0,255
+freehandStrokeWidth=3
+highlighterStrokeColor=255,0,0
+highlighterStrokeWidth=3
+pixelateStrength=0.40625
+
+[General]
+autoSaveImage=true
+clipboardGroup=PostScreenshotCopyImage
+launchAction=DoNotTakeScreenshot
+rememberSelectionRect=Never
+showCaptureInstructions=false
+useReleaseToCapture=true
+
+[GuiConfig]
+captureMode=0
+includePointer=true
+window-position=0,36
+
+[ImageSave]
+imageCompressionQuality=60
+imageFilenameTemplate=S_<yyyy><MM><dd>_<hh><mm><ss>
+imageSaveLocation=file:///home/kew/Pictures/spectacle
+lastImageSaveAsLocation=file:///home/kew/Pictures/Screenshot_20220729_211337.png
+lastImageSaveLocation=file:///home/kew/Pictures/spectacle/S_20240924_045111.png
+translatedScreenshotsFolder=Screenshots
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Screenshot_20220729_211337.png,file:$HOME/Pictures/Screenshot_20220729_211337.png
+Recent URLs[$e]=file:$HOME/Pictures/
+iconViewIconSize=64
+
+[VideoSave]
+preferredVideoFormat=0
+translatedScreencastsFolder=Screencasts
+videoFilenameTemplate=V_<yyyy><MM><dd>_<hh><mm><ss>
+videoSaveLocation=file:///home/kew/Videos/spectacle

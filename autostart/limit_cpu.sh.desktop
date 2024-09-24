@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/kew/scripts/limit_cpu.sh
+Icon=application-x-shellscript
+Name=limit_cpu.sh
+Type=Application
+X-KDE-AutostartScript=true
