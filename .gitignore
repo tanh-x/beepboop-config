@@ -2,7 +2,7 @@
 
 !/fish/
 !/fish/**
-fish/fish_variables
+!fish/fish_variables
 !/autostart/
 !/autostart/**
 
@@ -14,7 +14,6 @@ fish/fish_variables
 !kglobalshortcutsrc
 !spectaclerc
 !kritadisplayrc
-!dolphinrc
 !yakuakerc
 !krunnerrc
 !plasmarc
