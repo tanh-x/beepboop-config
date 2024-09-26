@@ -10,7 +10,7 @@ set terminal (basename "/"(ps -f -p (cat /proc/(echo %self)/stat | cut -d \  -f 
 
 # set -gx LD_LIBRARY_PATH $LD_LIBRARY_PATH $CONDA_PREFIX/lib/
 # set -x LD_LIBRARY_PATH /opt/cuda/targets/x86_64-linux/lib/ $LD_LIBRARY_PATH
-# set -gx JAVA_HOME /usr/lib/jvm/java-17-openjdk/
+set -gx JAVA_HOME /usr/lib/jvm/java-17-openjdk/
 
 if status is-interactive
     if [ "$terminal" = "yakuake" ]; or [ "$terminal" = "konsole" ]
@@ -21,7 +21,7 @@ if status is-interactive
     
     echo
     
-    alias nano="nano -ZDEFLSil%0T4"
+    alias nano="nano -ZDEFLSil"
     # alias nfzf="nano -ZDEFLSil%0T4 \$(fzf --preview='cat {} | head -n 32')"
     # alias nano="micro"
     alias wtrs="curl wttr.in/Ames\?mQ0 -s | tee '/home/kew/.wttr_output'"
@@ -81,7 +81,7 @@ if status is-interactive
     alias logout='qdbus org.kde.ksmserver /KSMServer logout 0 3 3'
     alias x='exit'
 
-    alias c='clear && source /home/kew/.config/fish/config.fish'
+    alias c='clear && source $HOME/.config/fish/config.fish'
     alias wmclass='xprop WM_CLASS'
 
     alias py='python'

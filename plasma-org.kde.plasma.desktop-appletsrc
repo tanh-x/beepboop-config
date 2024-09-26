@@ -103,7 +103,7 @@ fontSize=11
 fontStyleName=Regular
 fontWeight=400
 pin=true
-selectedTimeZones=Asia/Ho_Chi_Minh,Australia/Melbourne,UTC,America/New_York,Local
+selectedTimeZones=America/New_York,Local,UTC,Asia/Ho_Chi_Minh,Australia/Melbourne
 showSeconds=Always
 showWeekNumbers=true
 use24hFormat=2
@@ -117,7 +117,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][26][Applets][29][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 SystrayContainmentId=30
 
 [Containments][26][Applets][48]
@@ -125,7 +125,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][26][Applets][48][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:pycharm-professional.desktop,applications:jetbrains-clion.desktop,applications:jetbrains-idea.desktop,applications:rider.desktop,applications:jetbrains-datagrip.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:code.desktop,applications:pycharm-professional.desktop,applications:jetbrains-clion.desktop,applications:jetbrains-idea.desktop,applications:rider.desktop,applications:jetbrains-datagrip.desktop
 
 [Containments][26][Applets][75]
 immutability=1
@@ -190,7 +190,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][30][Applets][38][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 
 [Containments][30][Applets][38][Configuration][General]
 migrated=true
@@ -224,14 +224,14 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][30][Applets][44][Configuration]
-PreloadWeight=60
+PreloadWeight=0
 
 [Containments][30][Applets][45]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][30][Applets][45][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][30][ConfigDialog]
 DialogHeight=540
@@ -257,6 +257,7 @@ immutability=1
 plugin=org.kde.plasma.resources-monitor
 
 [Containments][49][Applets][53][Configuration][Appearance]
+enableShadows=false
 fontScale=30
 graphHeight=20
 graphSpacing=6
@@ -272,7 +273,7 @@ DialogWidth=720
 clickAction=application
 clickActionCommand=file:///usr/share/applications/btop.desktop
 graphs=[{"_v":2,"type":"cpu","colors":["highlightColor","textColor","textColor"],"sensorsType":["usage","classic",false],"clockAggregator":"average","eCoresCount":0,"thresholds":[85,105]},{"_v":2,"type":"memory","colors":["highlightColor","negativeTextColor"],"sensorsType":["physical","swap"],"thresholds":[87.5,95]}]
-updateInterval=4
+updateInterval=3
 
 [Containments][49][Applets][54]
 immutability=1
@@ -285,13 +286,14 @@ DialogWidth=720
 [Containments][49][Applets][54][Configuration][General]
 byteColor=148,148,148
 customColors=true
-fontSize=80
+fontSize=85
 gigabyteColor=215,13,121
 kilobyteColor=254,223,138
 megabyteColor=255,66,52
 shortUnits=true
 showLowSpeeds=true
 swapDownUp=true
+updateInterval=3
 
 [Containments][49][Applets][55]
 immutability=1
@@ -333,6 +335,7 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
+cursorPosition=245
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
 
@@ -379,6 +382,11 @@ global=Meta+Shift+C
 [Containments][49][Applets][70]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][49][Applets][70][Configuration]
+PreloadWeight=100
+popupHeight=202
+popupWidth=360
 
 [Containments][49][Applets][70][Configuration][General]
 showPercentage=true
@@ -428,8 +436,45 @@ power/4814/chargeRate=Power      \s
 [Containments][49][Applets][76][Configuration][Sensors]
 highPrioritySensorIds=["cpu/all/maximumFrequency","power/4814/charge","power/4814/chargeRate"]
 
+[Containments][49][Applets][77]
+immutability=1
+plugin=org.kde.olib.thermalmonitor
+
+[Containments][49][Applets][77][Configuration]
+PreloadWeight=55
+popupHeight=30
+popupWidth=57
+
+[Containments][49][Applets][77][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][49][Applets][77][Configuration][General]
+sensors=[{"name":"cpu","sensorId":"cpu/all/maximumTemperature"}]
+
+[Containments][49][Applets][77][Configuration][Misc]
+updateInterval=5
+
 [Containments][49][General]
-AppletOrder=55;72;67;68;66;58;76;53;54;70
+AppletOrder=55;72;67;68;66;58;76;53;54;70;77
+
+[Containments][79]
+activityId=121a26be-cc00-4124-85b7-ca3377ba6874
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][79][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][79][Wallpaper][org.kde.image][General]
+Image=/home/kew/Pictures/dea9ur9-e9e827b5-f426-45c2-bd7d-cf9e0728437d.jpg
+PreviewImage=/home/kew/Pictures/dea9ur9-e9e827b5-f426-45c2-bd7d-cf9e0728437d.jpg
+SlidePaths=/home/kew/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][8]
 activityId=

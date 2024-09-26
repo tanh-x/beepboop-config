@@ -2,8 +2,7 @@
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
 
 [Annotations]
-annotationToolType=6
-freehandStrokeColor=38,0,255
+annotationToolType=2
 freehandStrokeWidth=3
 highlighterStrokeColor=255,0,0
 highlighterStrokeWidth=3
@@ -27,7 +26,7 @@ imageCompressionQuality=60
 imageFilenameTemplate=S_<yyyy><MM><dd>_<hh><mm><ss>
 imageSaveLocation=file:///home/kew/Pictures/spectacle
 lastImageSaveAsLocation=file:///home/kew/Pictures/Screenshot_20220729_211337.png
-lastImageSaveLocation=file:///home/kew/Pictures/spectacle/S_20240924_045111.png
+lastImageSaveLocation=file:///home/kew/Pictures/spectacle/S_20240926_110302.png
 translatedScreenshotsFolder=Screenshots
 
 [KFileDialog Settings]

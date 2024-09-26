@@ -38,7 +38,7 @@ contrastEnabled=false
 desktopchangeosdEnabled=true
 diminactiveEnabled=true
 forceblurEnabled=true
-krohnkiteEnabled=true
+krohnkiteEnabled=false
 kzonesEnabled=true
 mousemarkEnabled=true
 poloniumEnabled=false
@@ -78,7 +78,7 @@ HighlightWindows=false
 LayoutName=thumbnail_grid
 
 [Tiling]
-padding=8
+padding=4
 
 [Tiling][1539f75d-3276-5b46-be10-a202f6851fe5]
 tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.5},{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.5}]}
@@ -116,6 +116,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][5d683f2c-8ecb-5a6c-bde7-aa1b5113948a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][62286884-e70e-5511-b6e9-48ecbc69d6e9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][62628577-5484-5fab-8c25-4a026553f626]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -130,6 +133,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][74ff90b6-a174-51cc-85f2-697dedb6f26c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7708a415-d62e-5cdb-b85a-e6bdb02a8df9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.2790697674418605},{"width":0.4709302325581395},{"width":0.25}]}
 
 [Tiling][77f41113-2c74-507d-9e75-a55ec69211f7]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -186,7 +192,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][f742c6fb-ce00-5fb6-9ca5-6f266a7335f8]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5088541666666667},{"width":0.4911458333333333}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5218749999999999},{"width":0.47812500000000013}]}
 
 [Tiling][f79b04bf-7247-52b5-b755-725c143d4094]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}

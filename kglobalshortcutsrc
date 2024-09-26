@@ -63,13 +63,13 @@ _k_friendly_name=Session Management
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Meta+Ctrl+A,Activate Window Demanding Attention
 ClearLastMouseMark=Meta+Ctrl+Shift+Z,Meta+Shift+F12,Clear Last Mouse Mark
-ClearMouseMarks=Meta+Ctrl+Shift+X,Meta+Shift+F11,Clear Mouse Marks
+ClearMouseMarks=Meta+Ctrl+Shift+X,Meta+Shift+F11,Clear All Mouse Marks
 Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+T,Meta+T,Toggle Tiles Editor
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10,Toggle Present Windows (All desktops)
+ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=Meta+G,Meta+G,Toggle Grid View
@@ -86,9 +86,9 @@ KZones: Activate layout 8=Meta+Num+8,none,KZones: Activate layout 8
 KZones: Activate layout 9=Meta+Num+9,none,KZones: Activate layout 9
 KZones: Cycle layouts=Ctrl+Alt+D,none,KZones: Cycle layouts
 KZones: Cycle layouts (reversed)=Ctrl+Alt+Shift+D,none,KZones: Cycle layouts (reversed)
-KZones: Move active window down=,none,KZones: Move active window down
-KZones: Move active window left=,none,KZones: Move active window left
-KZones: Move active window right=,none,KZones: Move active window right
+KZones: Move active window down=none,none,KZones: Move active window down
+KZones: Move active window left=none,none,KZones: Move active window left
+KZones: Move active window right=none,none,KZones: Move active window right
 KZones: Move active window to next zone=Ctrl+Alt+Right,none,KZones: Move active window to next zone
 KZones: Move active window to previous zone=Ctrl+Alt+Left,none,KZones: Move active window to previous zone
 KZones: Move active window to zone 1=Ctrl+Alt+Num+1,none,KZones: Move active window to zone 1
@@ -100,8 +100,8 @@ KZones: Move active window to zone 6=Ctrl+Alt+Num+6,none,KZones: Move active win
 KZones: Move active window to zone 7=Ctrl+Alt+Num+7,none,KZones: Move active window to zone 7
 KZones: Move active window to zone 8=Ctrl+Alt+Num+8,none,KZones: Move active window to zone 8
 KZones: Move active window to zone 9=Ctrl+Alt+Num+9,none,KZones: Move active window to zone 9
-KZones: Move active window up=,none,KZones: Move active window up
-KZones: Snap active window=,none,KZones: Snap active window
+KZones: Move active window up=none,none,KZones: Move active window up
+KZones: Snap active window=none,none,KZones: Snap active window
 KZones: Snap all windows=Meta+Space,none,KZones: Snap all windows
 KZones: Switch to next window in current zone=Ctrl+Alt+Up,none,KZones: Switch to next window in current zone
 KZones: Switch to previous window in current zone=Ctrl+Alt+Down,none,KZones: Switch to previous window in current zone
@@ -417,9 +417,9 @@ _launch=Meta+Tab
 _launch=Ctrl+Shift+Esc
 
 [services][org.kde.spectacle.desktop]
-RecordRegion=
+RecordRegion=none
 RecordWindow=none
-RectangularRegionScreenShot=Meta+Shift+S\t
+RectangularRegionScreenShot=Meta+Shift+S
 _launch=none
 
 [yakuake]
