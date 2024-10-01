@@ -2,13 +2,13 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0.1840786665116069
+ArtColorSel.Light=0.49538619505931497
 ArtColorSel.LightPieces=1
 ArtColorSel.NumRings=5
 ArtColorSel.RingPieces=1
-ArtColorSel.SelColorH=0
-ArtColorSel.SelColorS=0
-ArtColorSel.SelColorX=0.1840786665116069
+ArtColorSel.SelColorH=0.00015004704865084816
+ArtColorSel.SelColorS=1
+ArtColorSel.SelColorX=0.49538619505931497
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -31,8 +31,8 @@ ConvertToImageColorSpaceOnImport=false
 CreateBackupFile=true
 CurrentWorkspace=main
 ExportConfiguration-image/jpeg=<!DOCTYPE params>\n<params>\n <param name="baseline" type="internal">true</param>\n <param name="exif" type="internal">true</param>\n <param name="filters" type="string"><![CDATA[]]></param>\n <param name="forceSRGB" type="internal">false</param>\n <param name="iptc" type="internal">true</param>\n <param name="optimize" type="internal">true</param>\n <param name="progressive" type="internal">false</param>\n <param name="quality" type="internal">100</param>\n <param name="saveProfile" type="internal">true</param>\n <param name="smoothing" type="internal">0</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="subsampling" type="internal">0</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-g10.icc" b="1"/>\n</color>\n]]></param>\n <param name="xmp" type="internal">true</param>\n</params>\n
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">8</param>\n <param type="internal" name="downsample">true</param>\n <param type="internal" name="forceSRGB">true</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">false</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" g="1"/>\n</color>\n]]></param>\n</params>\n
-FilterSelector/LastUsedFilter=hsvadjustment
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">8</param>\n <param type="internal" name="downsample">true</param>\n <param type="internal" name="forceSRGB">true</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">false</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" space="sRGB-elle-V2-srgbtrc.icc" b="1" r="1"/>\n</color>\n]]></param>\n</params>\n
+FilterSelector/LastUsedFilter=desaturate
 GamutMasks.viewMode=0
 KineticScrollingEnabled=true
 KineticScrollingGesture=2
@@ -48,10 +48,10 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB space="sRGB-elle-V2-g10.icc" g="0.243137255311012" b="0.752941191196442" r="0.580392181873322"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" g="0.168627455830574" b="0.168627455830574" r="0.168627455830574"/>\n</LastForeGroundColor>\n
-LastPreset=i) Wet Paint Details
-LastPreset_-1=i) Wet Paint Details
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="0.243137255311012" space="sRGB-elle-V2-g10.icc" b="0.752941191196442" r="0.580392181873322"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0.0117647061124444" space="sRGB-elle-V2-srgbtrc.icc" b="0" r="1"/>\n</LastForeGroundColor>\n
+LastPreset=i) Wet Paint
+LastPreset_-1=i) Wet Paint
 LineSmoothingDelayDistance=72
 LineSmoothingDistance=256
 LineSmoothingFinishStabilizedCurve=true
@@ -133,7 +133,7 @@ eraserCursorStyle=9
 eraserOutlineStyle=2
 favoriteCompositeOps=normal,erase,multiply,burn,darken,add,dodge,screen,overlay,soft_light_svg,luminize,lighten,saturation,color,divide,easy dodge
 favoritePresetsTag=★ My Favorites
-filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x05w\x00\x00\x05\x00\x00\x00\x07N\x00\x00\x06\xed\x00\x00\x05w\x00\x00\x05\x00\x00\x00\x07N\x00\x00\x06\xed\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x05w\x00\x00\x05\x00\x00\x00\x07N\x00\x00\x06\xed
+filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x05w\x00\x00\x02\x18\x00\x00\x07N\x00\x00\x04\x05\x00\x00\x05w\x00\x00\x02\x18\x00\x00\x07N\x00\x00\x04\x05\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x05w\x00\x00\x02\x18\x00\x00\x07N\x00\x00\x04\x05
 filterdialog/rememberlastpreset=false
 forceAlwaysFullSizedEraserOutline=false
 forceAlwaysFullSizedOutline=false
@@ -165,10 +165,10 @@ hideScrollbarsFullScreen=true
 hideStatusbarFullScreen=true
 hideTitleBarFullscreen=true
 hideToolbarFullscreen=true
-imageHeightDef=2000
+imageHeightDef=300
 imageResolutionDef=300
-imageWidthDef=2000
-imagesizedlg_imsizeunit=%
+imageWidthDef=300
+imagesizedlg_imsizeunit=px
 imagesizedlg_printSizeSeparatly=false
 imagesizedlg_ratioLock=true
 imagesizedlg_resunit=Pixels/Inch
@@ -267,7 +267,7 @@ popuppalette/useDynamicSlotCount=true
 popuppalette/usevisualcolorselector=false
 preferredVectorImportResolution=360
 presetIconSize=40
-presethistory=b) Basic-2 Opacity,b) Basic-1,a) Eraser Soft,a) Eraser Small,u) Pixel Art,f) Bristle Thick Textured - deevad 23.01,g) Wet Modeling - deevad 23.01,Hard eraser,b1) Airbrush - deevad 23.01,i) Wet Paint Details
+presethistory=b) Basic-1,a) Eraser Soft,a) Eraser Small,u) Pixel Art,f) Bristle Thick Textured - deevad 23.01,g) Wet Modeling - deevad 23.01,Hard eraser,b1) Airbrush - deevad 23.01,i) Wet Paint Details,i) Wet Paint
 renameMergedLayers=true
 renamePastedLayers=true
 renderIntent=0
@@ -340,7 +340,7 @@ global/itemSizeCustom=32
 global/viewMode=icon
 
 [KFileDialog Settings]
-Recent Files[$e]=index.png,file:$HOME/Pictures/a/prac/p7.kra,file:$HOME/Pictures/a/prac/p8.kra,file:$HOME/Pictures/a/prac/p9.kra,file:$HOME/Pictures/milkyway-ref2.png,file:$HOME/Pictures/milkyway-ref1.png,file:$HOME/Pictures/wand.png,file:$HOME/Pictures/wiz-hat.png,file:$HOME/Pictures/wiz.png,file:$HOME/Pictures/vbt.png,file:$HOME/things/stars/glow-dark-starmap-polar-world.png,file:$HOME/things/stars/dark-starmap-polar-world.png,file:$HOME/things/stars/dark-starmap-equirect-world.png,file:$HOME/things/stars/starmap-equirect.png,file:$HOME/things/stars/starmap-polar.png,file:$HOME/things/stars/starmap-polar-world.png
+Recent Files[$e]=index.png,file:$HOME/Pictures/ul.png,file:$HOME/Pictures/a/prac/p7.kra,file:$HOME/Pictures/a/prac/p8.kra,file:$HOME/Pictures/milkyway-ref2.png,file:$HOME/Pictures/milkyway-ref1.png,file:$HOME/Pictures/wand.png,file:$HOME/Pictures/wiz-hat.png,file:$HOME/Pictures/wiz.png,file:$HOME/Pictures/vbt.png,file:$HOME/things/stars/glow-dark-starmap-polar-world.png,file:$HOME/things/stars/dark-starmap-polar-world.png,file:$HOME/things/stars/dark-starmap-equirect-world.png,file:$HOME/things/stars/starmap-equirect.png,file:$HOME/things/stars/starmap-polar.png
 Recent URLs[$e]=file:$HOME/Pictures/a/h322k-iast-ob/,file:$HOME/Pictures/a/,file:$HOME/Pictures/a/prac/,file:$HOME/Pictures/a/ajer-collab/,file:$HOME/Downloads/,file:$HOME/Documents/,file:$HOME/things/stars/,file:$HOME/Pictures/,file:$HOME/Pictures/spectacle/,file:$HOME/
 detailViewIconSize=16
 iconViewIconSize=64
@@ -479,7 +479,7 @@ useWashMode=false
 3 screens: Width=941
 3 screens: Window-Maximized=true
 3440x1440 screen: Window-Maximized=true
-State=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+wAAABoAUABhAGwAZQB0AHQAZQBEAG8AYwBrAGUAcgAAAAMRAAAAxwAAAGMA////+wAAABQARwByAGkAZABEAG8AYwBrAGUAcgAAAAAA/////wAAASoA////+wAAACoAQQBuAGkAbQBhAHQAaQBvAG4AQwB1AHIAdgBlAHMARABvAGMAawBlAHIAAAAAAP////8AAABoAP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAAB1AP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABIA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAAA/////wAAADMA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAArAD////7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAAHcA////+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAAdQD////7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAKQA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAdQD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAAAA/////wAAAHUA////+wAAACAAUwB0AG8AcgB5AGIAbwBhAHIAZABEAG8AYwBrAGUAcgAAAAAA/////wAAAJgA////+wAAABwAUgBlAGMAbwByAGQAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAVgD////7AAAALABXAGkAZABlAEcAYQBtAHUAdABDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAArQD///8AAAACAAAHgAAAACD8AQAAAAL7AAAADgBUAG8AbwBsAEIAbwB4AQAAAAAAAAeAAAAALwD////7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAADAAAHcAAAAET8AQAAAAT7AAAAHABGAGwAaQBwAGIAbwBvAGsARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAeAEEAbgBpAG0AYQB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAIABPAG4AaQBvAG4AUwBrAGkAbgBzAEQAbwBjAGsAZQByAAAAAAD/////AAABGgD////7AAAAHABUAGkAbQBlAGwAaQBuAGUARABvAGMAawBlAHIAAAAAAP////8AAANEAP///wAABVcAAANwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBCAHIAdQBzAGgAZQBzAEEAbgBkAFMAdAB1AGYAZgEAAAGd/////wAAAAAAAAAA
+State=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+wAAABoAUABhAGwAZQB0AHQAZQBEAG8AYwBrAGUAcgAAAAMRAAAAxwAAAGMA////+wAAABQARwByAGkAZABEAG8AYwBrAGUAcgAAAAAA/////wAAASoA////+wAAACoAQQBuAGkAbQBhAHQAaQBvAG4AQwB1AHIAdgBlAHMARABvAGMAawBlAHIAAAAAAP////8AAABoAP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAAB1AP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABIA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAAA/////wAAADMA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAArAD////7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAAHcA////+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAAdQD////7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAKQA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAdQD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAAAA/////wAAAHUA////+wAAACAAUwB0AG8AcgB5AGIAbwBhAHIAZABEAG8AYwBrAGUAcgAAAAAA/////wAAAJgA////+wAAABwAUgBlAGMAbwByAGQAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAVgD////7AAAALABXAGkAZABlAEcAYQBtAHUAdABDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAArQD///8AAAACAAAHgAAAACD8AQAAAAL7AAAADgBUAG8AbwBsAEIAbwB4AQAAAAAAAAeAAAAALwD////7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAADAAAHcAAAAET8AQAAAAT7AAAAHABGAGwAaQBwAGIAbwBvAGsARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAeAEEAbgBpAG0AYQB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAIABPAG4AaQBvAG4AUwBrAGkAbgBzAEQAbwBjAGsAZQByAAAAAAD/////AAABGgD////7AAAAHABUAGkAbQBlAGwAaQBuAGUARABvAGMAawBlAHIAAAAAAP////8AAANEAP///wAABVcAAANwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBCAHIAdQBzAGgAZQBzAEEAbgBkAFMAdAB1AGYAZgEAAAGd/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP-1 HDMI-1 Window-Maximized 1920x1080 eDP-1=true
 eDP-1 Height 1920x1080=999
@@ -488,7 +488,7 @@ eDP-1 Width 1920x1080=946
 eDP-1 Width 1920x1080 eDP-1=948
 eDP-1 Window-Maximized 1920x1080=true
 eDP-1 Window-Maximized 1920x1080 eDP-1=true
-ko_geometry=AdnQywADAAAAAAAAAAAALgAAB38AAAQ3AAADyAAAAFEAAAd1AAAELQAAAAACAAAAB4AAAAAAAAAASgAAB38AAAQ3
+ko_geometry=AdnQywADAAAAAALuAAAFoAAACm0AAAmpAAADyAAABbQAAAd1AAAJkAAAAAACAAAAB4AAAALuAAAFvAAACm0AAAmp
 
 [MainWindow][DockWidget AnimationCurvesDocker]
 DockArea=2
@@ -525,7 +525,7 @@ yPosition=0
 [MainWindow][DockWidget ColorSelectorNg]
 DockArea=2
 Locked=false
-height=258
+height=216
 width=278
 xPosition=0
 yPosition=16
@@ -565,7 +565,7 @@ yPosition=0
 [MainWindow][DockWidget HistogramDocker]
 DockArea=1
 Locked=false
-height=181
+height=283
 width=263
 xPosition=0
 yPosition=16
@@ -581,7 +581,7 @@ yPosition=16
 [MainWindow][DockWidget KisLayerBox]
 DockArea=1
 Locked=false
-height=510
+height=430
 width=263
 xPosition=0
 yPosition=16
@@ -637,7 +637,7 @@ yPosition=0
 [MainWindow][DockWidget PresetDocker]
 DockArea=1
 Locked=false
-height=129
+height=107
 width=263
 xPosition=0
 yPosition=16
@@ -677,7 +677,7 @@ yPosition=0
 [MainWindow][DockWidget SpecificColorSelector]
 DockArea=2
 Locked=false
-height=379
+height=320
 width=278
 xPosition=0
 yPosition=16
@@ -773,7 +773,7 @@ yPosition=16
 [MainWindow][DockWidget sharedtooldocker]
 DockArea=2
 Locked=false
-height=183
+height=284
 width=278
 xPosition=0
 yPosition=16
@@ -782,6 +782,12 @@ yPosition=16
 pinControls=true
 
 [RecentFiles]
+File1[$e]=$HOME/Pictures/logos.png
+File2[$e]=$HOME/Pictures/ul.png
+File3[$e]=$HOME/things/_w/random/pattern/pattern-64px.png
+Name1=logos.png
+Name2=ul.png
+Name3=pattern-64px.png
 maxRecentFileItems=100
 
 [SelectedTags]
@@ -808,7 +814,7 @@ windowState=AAAA/wAAAAD9AAAAAAAAAt0AAAFfAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAgAAAAEA
 
 [TemplateChooserDialog]
 DetailsPaneSplitterSizes=301,214
-LastReturnType=Custom Document
+LastReturnType=Create from ClipBoard
 
 [advancedColorSelector]
 customColorSpaceModel=RGBA
@@ -885,7 +891,7 @@ ToolPluginsDisabled=
 Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="halfHeight" type="internal">59</param>\n <param name="halfWidth" type="internal">56</param>\n <param name="irisRadius" type="internal">61</param>\n <param name="irisRotation" type="internal">0</param>\n <param name="irisShape" type="string"><![CDATA[Pentagon (5)]]></param>\n</params>\n
 
 [levels_filter_bookmarks]
-Last Used=<!DOCTYPE params>\n<params version="2">\n <param name="mode">lightness</param>\n <param name="histogram_mode">logarithmic</param>\n <param name="lightness">0;1;1.25;0;0.847058823529412</param>\n <param name="number_of_channels">8</param>\n <param name="channel_0">0;1;1;0;1</param>\n <param name="channel_1">0;1;1;0;1</param>\n <param name="channel_2">0;1;1;0;1</param>\n <param name="channel_3">0;1;1;0;1</param>\n <param name="channel_4">0;1;1;0;1</param>\n <param name="channel_5">0;1;1;0;1</param>\n <param name="channel_6">0;1;1;0;1</param>\n <param name="channel_7">0;1;1;0;1</param>\n <param name="blackvalue" type="internal">0</param>\n <param name="whitevalue" type="internal">255</param>\n <param name="gammavalue" type="internal">1.25</param>\n <param name="outblackvalue" type="internal">0</param>\n <param name="outwhitevalue" type="internal">216</param>\n</params>\n
+Last Used=<!DOCTYPE params>\n<params version="2">\n <param name="mode">lightness</param>\n <param name="histogram_mode">logarithmic</param>\n <param name="lightness">0.32093023255814;0.934883720930233;0.605010615501294;0;1</param>\n <param name="number_of_channels">8</param>\n <param name="channel_0">0;1;1;0;1</param>\n <param name="channel_1">0;1;1;0;1</param>\n <param name="channel_2">0;1;1;0;1</param>\n <param name="channel_3">0;1;1;0;1</param>\n <param name="channel_4">0;1;1;0;1</param>\n <param name="channel_5">0;1;1;0;1</param>\n <param name="channel_6">0;1;1;0;1</param>\n <param name="channel_7">0;1;1;0;1</param>\n <param type="internal" name="blackvalue">82</param>\n <param type="internal" name="whitevalue">238</param>\n <param type="internal" name="gammavalue">0.605010615501294</param>\n <param type="internal" name="outblackvalue">0</param>\n <param type="internal" name="outwhitevalue">255</param>\n</params>\n
 
 [maximize_filter_bookmarks]
 Last Used=<!DOCTYPE params>\n<params version="1"/>\n

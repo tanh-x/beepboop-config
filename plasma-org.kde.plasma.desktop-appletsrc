@@ -48,6 +48,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometries-1920x1080=
+ItemGeometries-3440x1440=
 ItemGeometriesHorizontal=
 activityId=121a26be-cc00-4124-85b7-ca3377ba6874
 formfactor=0
@@ -61,6 +62,9 @@ wallpaperplugin=org.kde.image
 DialogHeight=540
 DialogWidth=720
 
+[Containments][1][General]
+locked=true
+
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/home/kew/Pictures/dea9ur9-e9e827b5-f426-45c2-bd7d-cf9e0728437d.jpg
 SlidePaths=/home/kew/.local/share/wallpapers/,/usr/share/wallpapers/
@@ -70,7 +74,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -102,8 +106,7 @@ fontFamily=Barlow Semi Condensed
 fontSize=11
 fontStyleName=Regular
 fontWeight=400
-pin=true
-selectedTimeZones=America/New_York,Local,UTC,Asia/Ho_Chi_Minh,Australia/Melbourne
+selectedTimeZones=Asia/Ho_Chi_Minh,Australia/Melbourne,UTC,America/New_York,Local
 showSeconds=Always
 showWeekNumbers=true
 use24hFormat=2
@@ -117,7 +120,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][26][Applets][29][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 SystrayContainmentId=30
 
 [Containments][26][Applets][48]
@@ -125,7 +128,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][26][Applets][48][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:code.desktop,applications:pycharm-professional.desktop,applications:jetbrains-clion.desktop,applications:jetbrains-idea.desktop,applications:rider.desktop,applications:jetbrains-datagrip.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:org.kde.krita.desktop,applications:code.desktop,applications:pycharm-professional.desktop,applications:jetbrains-clion.desktop,applications:jetbrains-idea.desktop,applications:rider.desktop,applications:jetbrains-datagrip.desktop
 
 [Containments][26][Applets][75]
 immutability=1
@@ -148,7 +151,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.plasma.private.systemtray
 popupHeight=432
 popupWidth=432
@@ -175,7 +178,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][30][Applets][35][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][30][Applets][36]
 immutability=1
@@ -185,14 +188,18 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][30][Applets][37][Configuration]
+PreloadWeight=55
+
 [Containments][30][Applets][38]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][30][Applets][38][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][30][Applets][38][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -207,6 +214,9 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][30][Applets][41]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][30][Applets][41][Configuration]
+PreloadWeight=65
 
 [Containments][30][Applets][42]
 immutability=1
@@ -231,7 +241,10 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][30][Applets][45][Configuration]
-PreloadWeight=60
+PreloadWeight=100
+
+[Containments][30][Applets][45][Configuration][General]
+currentDetailsTab=details
 
 [Containments][30][ConfigDialog]
 DialogHeight=540
@@ -239,7 +252,7 @@ DialogWidth=720
 
 [Containments][30][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.volume
-hiddenItems=firewall-applet,Yakuake,org.kde.plasma.brightness,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.battery
+hiddenItems=firewall-applet,Yakuake,org.kde.plasma.brightness,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.notifications
 knownItems=org.kde.plasma.battery,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier
 shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume
 
@@ -248,7 +261,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -258,11 +271,12 @@ plugin=org.kde.plasma.resources-monitor
 
 [Containments][49][Applets][53][Configuration][Appearance]
 enableShadows=false
-fontScale=30
+fontScale=27
+graphFillOpacity=20
 graphHeight=20
 graphSpacing=6
 graphWidth=20
-historyAmount=60
+historyAmount=30
 placement=top-left
 
 [Containments][49][Applets][53][Configuration][ConfigDialog]
@@ -272,8 +286,8 @@ DialogWidth=720
 [Containments][49][Applets][53][Configuration][General]
 clickAction=application
 clickActionCommand=file:///usr/share/applications/btop.desktop
-graphs=[{"_v":2,"type":"cpu","colors":["highlightColor","textColor","textColor"],"sensorsType":["usage","classic",false],"clockAggregator":"average","eCoresCount":0,"thresholds":[85,105]},{"_v":2,"type":"memory","colors":["highlightColor","negativeTextColor"],"sensorsType":["physical","swap"],"thresholds":[87.5,95]}]
-updateInterval=3
+graphs=[{"_v":2,"type":"cpu","colors":["highlightColor","textColor","textColor"],"sensorsType":["usage","classic",false],"clockAggregator":"maximum","eCoresCount":0,"thresholds":[85,105]},{"_v":2,"type":"memory","colors":["highlightColor","negativeTextColor"],"sensorsType":["physical","swap"],"thresholds":[87.5,95]},{"_v":2,"type":"disk","colors":["highlightColor","positiveTextColor"],"sensorsType":[false],"uplimits":[10000,10000],"icons":true,"device":"all"}]
+updateInterval=4
 
 [Containments][49][Applets][54]
 immutability=1
@@ -335,7 +349,7 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
-cursorPosition=245
+cursorPosition=13
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
 
@@ -356,6 +370,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][49][Applets][67][Configuration][General]
+savedAt=2024,9,27,22,36,28.045
 showProgressBar=true
 showTimerToggle=false
 
@@ -374,7 +389,7 @@ DialogWidth=720
 
 [Containments][49][Applets][68][Configuration][General]
 defaultFormat=rrggbb
-history=#d72f27,#f46d42,#fedf8a,#fc9271,#b16694,#ba1b1e,#228536,#b9b9bd,#2c2c2c
+history=#f5002a,#d72f27,#f46d42,#fedf8a,#fc9271,#b16694,#ba1b1e,#228536,#b9b9bd
 
 [Containments][49][Applets][68][Shortcuts]
 global=Meta+Shift+C
@@ -404,38 +419,6 @@ lengthMargin=12
 lengthSeparator=60
 opacity=50
 
-[Containments][49][Applets][76]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-
-[Containments][49][Applets][76][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=65
-popupHeight=68
-popupWidth=157
-
-[Containments][49][Applets][76][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-showTitle=false
-updateRateLimit=5000
-
-[Containments][49][Applets][76][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][49][Applets][76][Configuration][SensorColors]
-cpu/all/maximumFrequency=204,53,60
-power/4814/charge=204,53,60
-power/4814/chargeRate=204,53,60
-
-[Containments][49][Applets][76][Configuration][SensorLabels]
-cpu/all/maximumFrequency=Clock
-power/4814/charge=Charge\s
-power/4814/chargeRate=Power      \s
-
-[Containments][49][Applets][76][Configuration][Sensors]
-highPrioritySensorIds=["cpu/all/maximumFrequency","power/4814/charge","power/4814/chargeRate"]
-
 [Containments][49][Applets][77]
 immutability=1
 plugin=org.kde.olib.thermalmonitor
@@ -456,7 +439,7 @@ sensors=[{"name":"cpu","sensorId":"cpu/all/maximumTemperature"}]
 updateInterval=5
 
 [Containments][49][General]
-AppletOrder=55;72;67;68;66;58;76;53;54;70;77
+AppletOrder=55;72;67;68;66;58;53;54;77;70
 
 [Containments][79]
 activityId=121a26be-cc00-4124-85b7-ca3377ba6874

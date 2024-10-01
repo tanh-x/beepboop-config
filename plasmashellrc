@@ -24,7 +24,7 @@ eDP-1 Height 1920x1080=446
 eDP-1 Width 1920x1080=345
 
 [PlasmaTransientsConfig]
-PreloadWeight=0
+PreloadWeight=34
 
 [PlasmaViews][Panel 111]
 alignment=132
@@ -181,6 +181,7 @@ alignment=1
 floating=1
 panelLengthMode=1
 panelOpacity=2
+panelVisibility=0
 
 [PlasmaViews][Panel 26][Defaults]
 floating=0
@@ -264,6 +265,7 @@ alignment=2
 floating=1
 panelLengthMode=1
 panelOpacity=2
+panelVisibility=0
 
 [PlasmaViews][Panel 49][Defaults]
 thickness=46

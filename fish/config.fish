@@ -10,7 +10,7 @@ set terminal (basename "/"(ps -f -p (cat /proc/(echo %self)/stat | cut -d \  -f 
 
 # set -gx LD_LIBRARY_PATH $LD_LIBRARY_PATH $CONDA_PREFIX/lib/
 # set -x LD_LIBRARY_PATH /opt/cuda/targets/x86_64-linux/lib/ $LD_LIBRARY_PATH
-set -gx JAVA_HOME /usr/lib/jvm/java-17-openjdk/
+set -gx JAVA_HOME /usr/lib/jvm/java-21-openjdk/
 
 if status is-interactive
     if [ "$terminal" = "yakuake" ]; or [ "$terminal" = "konsole" ]

@@ -3,8 +3,12 @@
 !/fish/
 !/fish/**
 !fish/fish_variables
+
 !/autostart/
 !/autostart/**
+
+!/rc/
+!/rc/**
 
 
 !kritarc

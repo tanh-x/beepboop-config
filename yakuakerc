@@ -1,9 +1,10 @@
 [Animation]
-Frames=18
+Frames=22
 
 [Appearance]
 Skin=Slate
 SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
 
 [Desktop Entry]
 DefaultProfile=yakuake-profile.profile
@@ -15,5 +16,5 @@ FirstRun=false
 iconViewIconSize=64
 
 [Window]
-Height=52
-Width=60
+Height=55
+Width=65
