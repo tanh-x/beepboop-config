@@ -15,6 +15,12 @@ FirstRun=false
 [KFileDialog Settings]
 iconViewIconSize=64
 
+[Shortcuts]
+next-session=Ctrl+Tab
+next-terminal=;\s
+previous-session=Ctrl+Shift+Tab
+previous-terminal=;\s
+
 [Window]
 Height=55
 Width=65

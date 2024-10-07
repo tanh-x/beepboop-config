@@ -106,7 +106,7 @@ fontFamily=Barlow Semi Condensed
 fontSize=11
 fontStyleName=Regular
 fontWeight=400
-selectedTimeZones=Asia/Ho_Chi_Minh,Australia/Melbourne,UTC,America/New_York,Local
+selectedTimeZones=America/New_York,Local,UTC,Asia/Ho_Chi_Minh,Australia/Melbourne
 showSeconds=Always
 showWeekNumbers=true
 use24hFormat=2
@@ -178,7 +178,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][30][Applets][35][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][30][Applets][36]
 immutability=1
@@ -199,7 +199,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][30][Applets][38][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -245,6 +244,13 @@ PreloadWeight=100
 
 [Containments][30][Applets][45][Configuration][General]
 currentDetailsTab=details
+
+[Containments][30][Applets][81]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
+[Containments][30][Applets][81][Configuration]
+PreloadWeight=100
 
 [Containments][30][ConfigDialog]
 DialogHeight=540
@@ -349,7 +355,6 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
-cursorPosition=13
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
 
@@ -370,7 +375,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][49][Applets][67][Configuration][General]
-savedAt=2024,9,27,22,36,28.045
+savedAt=2024,10,1,10,12,51.599
 showProgressBar=true
 showTimerToggle=false
 
@@ -568,6 +573,10 @@ plugin=org.kde.plasma.networkmanagement
 
 [Containments][8][Applets][25][Configuration]
 PreloadWeight=42
+
+[Containments][8][Applets][80]
+immutability=1
+plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][9]
 immutability=1
