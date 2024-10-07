@@ -28,5 +28,7 @@
 !gtkrc
 !gtkrc-2.0
 
+!keymapper.conf
+
 
 !/.gitignore

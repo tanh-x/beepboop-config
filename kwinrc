@@ -16,7 +16,7 @@ NoiseStrength=4
 
 [Effect-diminactive]
 DimKeepAbove=true
-Strength=10
+Strength=14
 
 [Effect-mousemark]
 Arrowdrawalt=true
