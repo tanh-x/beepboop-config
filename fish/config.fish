@@ -13,13 +13,11 @@ set terminal (basename "/"(ps -f -p (cat /proc/(echo %self)/stat | cut -d \  -f 
 set -gx JAVA_HOME /usr/lib/jvm/java-21-openjdk/
 
 if status is-interactive
+    echo
     if [ "$terminal" = "yakuake" ]; or [ "$terminal" = "konsole" ]
       # fish_logo | awk '{print " " $0}'
-      echo
       tail -n 5 ~/.wttr_output
     end
-    
-    echo
     
     alias nano="nano -ZDEFLSil"
     # alias nfzf="nano -ZDEFLSil%0T4 \$(fzf --preview='cat {} | head -n 32')"

@@ -22,5 +22,5 @@ previous-session=Ctrl+Shift+Tab
 previous-terminal=;\s
 
 [Window]
-Height=55
-Width=65
+Height=60
+Width=60
