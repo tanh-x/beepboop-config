@@ -355,8 +355,10 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
+cursorPosition=1820
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
+scrollY=1110
 
 [Containments][49][Applets][66][Shortcuts]
 global=Meta+Shift+G
@@ -375,7 +377,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][49][Applets][67][Configuration][General]
-savedAt=2024,10,1,10,12,51.599
+savedAt=2024,10,7,15,28,16.559
 showProgressBar=true
 showTimerToggle=false
 

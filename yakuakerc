@@ -23,4 +23,5 @@ previous-terminal=;\s
 
 [Window]
 Height=60
+Screen=1
 Width=60
