@@ -178,7 +178,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][30][Applets][35][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][30][Applets][36]
 immutability=1
@@ -355,10 +355,9 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
-cursorPosition=1820
+cursorPosition=54
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
-scrollY=1110
 
 [Containments][49][Applets][66][Shortcuts]
 global=Meta+Shift+G
@@ -368,7 +367,7 @@ immutability=1
 plugin=org.kde.plasma.timer
 
 [Containments][49][Applets][67][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 popupHeight=165
 popupWidth=560
 
@@ -377,7 +376,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][49][Applets][67][Configuration][General]
-savedAt=2024,10,7,15,28,16.559
+savedAt=2024,10,21,15,28,12.628
 showProgressBar=true
 showTimerToggle=false
 
@@ -396,7 +395,7 @@ DialogWidth=720
 
 [Containments][49][Applets][68][Configuration][General]
 defaultFormat=rrggbb
-history=#f5002a,#d72f27,#f46d42,#fedf8a,#fc9271,#b16694,#ba1b1e,#228536,#b9b9bd
+history=#ff002f,#fe0000,#ff0132,#f5002a,#d72f27,#f46d42,#fedf8a,#fc9271,#b16694
 
 [Containments][49][Applets][68][Shortcuts]
 global=Meta+Shift+C

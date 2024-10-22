@@ -48,8 +48,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="0.243137255311012" space="sRGB-elle-V2-g10.icc" b="0.752941191196442" r="0.580392181873322"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0.0117647061124444" space="sRGB-elle-V2-srgbtrc.icc" b="0" r="1"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="0.752941191196442" g="0.243137255311012" r="0.580392181873322" space="sRGB-elle-V2-g10.icc"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0" g="0.0117647061124444" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
 LastPreset=i) Wet Paint
 LastPreset_-1=i) Wet Paint
 LineSmoothingDelayDistance=72
@@ -165,9 +165,9 @@ hideScrollbarsFullScreen=true
 hideStatusbarFullScreen=true
 hideTitleBarFullscreen=true
 hideToolbarFullscreen=true
-imageHeightDef=300
+imageHeightDef=2560
 imageResolutionDef=300
-imageWidthDef=300
+imageWidthDef=2560
 imagesizedlg_imsizeunit=px
 imagesizedlg_printSizeSeparatly=false
 imagesizedlg_ratioLock=true
@@ -782,12 +782,6 @@ yPosition=16
 pinControls=true
 
 [RecentFiles]
-File1[$e]=$HOME/Pictures/logos.png
-File2[$e]=$HOME/Pictures/ul.png
-File3[$e]=$HOME/things/_w/random/pattern/pattern-64px.png
-Name1=logos.png
-Name2=ul.png
-Name3=pattern-64px.png
 maxRecentFileItems=100
 
 [SelectedTags]
@@ -814,7 +808,7 @@ windowState=AAAA/wAAAAD9AAAAAAAAAt0AAAFfAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAgAAAAEA
 
 [TemplateChooserDialog]
 DetailsPaneSplitterSizes=301,214
-LastReturnType=Create from ClipBoard
+LastReturnType=Custom Document
 
 [advancedColorSelector]
 customColorSpaceModel=RGBA
