@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/kew/scripts/autossh-tunnel.sh
+Icon=application-x-shellscript
+Name=autossh-tunnel.sh
+Type=Application
+X-KDE-AutostartScript=true

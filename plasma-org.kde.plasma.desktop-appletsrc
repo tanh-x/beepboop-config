@@ -1,7 +1,6 @@
 [ActionPlugins][0]
 MiddleButton;NoModifier=switchwindow
 RightButton;NoModifier=org.kde.contextmenu
-wheel:Vertical;NoModifier=org.kde.switchdesktop
 
 [ActionPlugins][0][MiddleButton;NoModifier]
 _add panel=false
@@ -39,6 +38,7 @@ _wallpaper=true
 add widgets=true
 configure=true
 configure shortcuts=false
+desktop edit mode=true
 edit mode=true
 manage activities=true
 remove=true
@@ -74,7 +74,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -128,7 +128,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][26][Applets][48][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:org.kde.krita.desktop,applications:code.desktop,applications:pycharm-professional.desktop,applications:jetbrains-clion.desktop,applications:jetbrains-idea.desktop,applications:rider.desktop,applications:jetbrains-datagrip.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:org.kde.krita.desktop,applications:code.desktop,applications:pycharm-professional.desktop,applications:jetbrains-clion.desktop,applications:jetbrains-idea.desktop,applications:rider.desktop
 
 [Containments][26][Applets][75]
 immutability=1
@@ -151,7 +151,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.plasma.private.systemtray
 popupHeight=432
 popupWidth=432
@@ -189,7 +189,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][30][Applets][37][Configuration]
-PreloadWeight=55
+PreloadWeight=70
 
 [Containments][30][Applets][38]
 immutability=1
@@ -199,6 +199,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][30][Applets][38][Configuration][General]
+currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -215,11 +216,14 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][30][Applets][41][Configuration]
-PreloadWeight=70
+PreloadWeight=80
 
 [Containments][30][Applets][42]
 immutability=1
 plugin=org.kde.plasma.brightness
+
+[Containments][30][Applets][42][Configuration]
+PreloadWeight=55
 
 [Containments][30][Applets][43]
 immutability=1
@@ -267,7 +271,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -355,9 +359,10 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
-cursorPosition=54
+cursorPosition=8729
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
+scrollY=2910
 
 [Containments][49][Applets][66][Shortcuts]
 global=Meta+Shift+G
@@ -376,7 +381,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][49][Applets][67][Configuration][General]
-savedAt=2024,10,21,15,28,12.628
+savedAt=2024,11,7,9,23,3.025
 showProgressBar=true
 showTimerToggle=false
 
@@ -395,7 +400,7 @@ DialogWidth=720
 
 [Containments][49][Applets][68][Configuration][General]
 defaultFormat=rrggbb
-history=#ff002f,#fe0000,#ff0132,#f5002a,#d72f27,#f46d42,#fedf8a,#fc9271,#b16694
+history=#b45f05,#3d84c5,#ffffff,#292c2f,#1f1f1f,#251f21,#d2202f,#80715a,#81725a
 
 [Containments][49][Applets][68][Shortcuts]
 global=Meta+Shift+C
@@ -406,7 +411,7 @@ plugin=org.kde.plasma.battery
 
 [Containments][49][Applets][70][Configuration]
 PreloadWeight=100
-popupHeight=202
+popupHeight=218
 popupWidth=360
 
 [Containments][49][Applets][70][Configuration][General]
@@ -462,7 +467,6 @@ DialogWidth=720
 
 [Containments][79][Wallpaper][org.kde.image][General]
 Image=/home/kew/Pictures/dea9ur9-e9e827b5-f426-45c2-bd7d-cf9e0728437d.jpg
-PreviewImage=/home/kew/Pictures/dea9ur9-e9e827b5-f426-45c2-bd7d-cf9e0728437d.jpg
 SlidePaths=/home/kew/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][8]
@@ -592,6 +596,24 @@ PreloadWeight=42
 [Containments][8][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier
 knownItems=org.kde.plasma.battery,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier
+
+[Containments][80]
+activityId=121a26be-cc00-4124-85b7-ca3377ba6874
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][80][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][80][Wallpaper][org.kde.image][General]
+Image=/home/kew/Pictures/dea9ur9-e9e827b5-f426-45c2-bd7d-cf9e0728437d.jpg
+PreviewImage=/home/kew/Pictures/dea9ur9-e9e827b5-f426-45c2-bd7d-cf9e0728437d.jpg
+SlidePaths=/home/kew/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
