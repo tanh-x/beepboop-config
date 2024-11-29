@@ -48,6 +48,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometries-1920x1080=
+ItemGeometries-2560x1440=
 ItemGeometries-3440x1440=
 ItemGeometriesHorizontal=
 activityId=121a26be-cc00-4124-85b7-ca3377ba6874
@@ -106,7 +107,7 @@ fontFamily=Barlow Semi Condensed
 fontSize=11
 fontStyleName=Regular
 fontWeight=400
-selectedTimeZones=America/New_York,Local,UTC,Asia/Ho_Chi_Minh,Australia/Melbourne
+selectedTimeZones=Asia/Ho_Chi_Minh,Australia/Melbourne,UTC,America/New_York,Local
 showSeconds=Always
 showWeekNumbers=true
 use24hFormat=2
@@ -359,10 +360,9 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
-cursorPosition=8729
+cursorPosition=22
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
-scrollY=2910
 
 [Containments][49][Applets][66][Shortcuts]
 global=Meta+Shift+G
@@ -400,7 +400,7 @@ DialogWidth=720
 
 [Containments][49][Applets][68][Configuration][General]
 defaultFormat=rrggbb
-history=#b45f05,#3d84c5,#ffffff,#292c2f,#1f1f1f,#251f21,#d2202f,#80715a,#81725a
+history=#79363a,#c97e7f,#d18172,#dad0c9,#66355b,#d6bdca,#a66a88,#97597c,#8d5178
 
 [Containments][49][Applets][68][Shortcuts]
 global=Meta+Shift+C
