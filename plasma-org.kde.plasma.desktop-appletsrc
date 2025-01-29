@@ -84,7 +84,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][26][Applets][27][Configuration]
-PreloadWeight=55
+PreloadWeight=75
 popupHeight=432
 popupWidth=324
 
@@ -107,7 +107,7 @@ fontFamily=Barlow Semi Condensed
 fontSize=11
 fontStyleName=Regular
 fontWeight=400
-selectedTimeZones=Asia/Ho_Chi_Minh,Australia/Melbourne,UTC,America/New_York,Local
+selectedTimeZones=Asia/Tokyo,Asia/Ho_Chi_Minh,Australia/Melbourne,UTC,America/New_York,America/Chicago,Local
 showSeconds=Always
 showWeekNumbers=true
 use24hFormat=2
@@ -166,6 +166,9 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][30][Applets][32][Configuration]
+PreloadWeight=55
+
 [Containments][30][Applets][33]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -179,7 +182,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][30][Applets][35][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][30][Applets][36]
 immutability=1
@@ -190,7 +193,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][30][Applets][37][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 
 [Containments][30][Applets][38]
 immutability=1
@@ -200,7 +203,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][30][Applets][38][Configuration][General]
-currentTab=streams
 migrated=true
 showVirtualDevices=true
 
@@ -224,7 +226,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][30][Applets][42][Configuration]
-PreloadWeight=55
+PreloadWeight=75
 
 [Containments][30][Applets][43]
 immutability=1
@@ -263,7 +265,7 @@ DialogWidth=720
 
 [Containments][30][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.volume
-hiddenItems=firewall-applet,Yakuake,org.kde.plasma.brightness,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.notifications
+hiddenItems=firewall-applet,Yakuake,org.kde.plasma.brightness,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.notifications,zero-trust-client
 knownItems=org.kde.plasma.battery,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier
 shownItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume
 
@@ -318,7 +320,6 @@ megabyteColor=255,66,52
 shortUnits=true
 showLowSpeeds=true
 swapDownUp=true
-updateInterval=3
 
 [Containments][49][Applets][55]
 immutability=1
@@ -360,7 +361,7 @@ DialogWidth=720
 
 [Containments][49][Applets][66][Configuration][General]
 color=translucent-light
-cursorPosition=22
+cursorPosition=98
 fontSize=13
 noteId=58f155d6-1044-4514-9d24-92b823d5c0
 
@@ -381,7 +382,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][49][Applets][67][Configuration][General]
-savedAt=2024,11,7,9,23,3.025
+savedAt=2025,1,20,17,23,39.212
 showProgressBar=true
 showTimerToggle=false
 
@@ -400,7 +401,7 @@ DialogWidth=720
 
 [Containments][49][Applets][68][Configuration][General]
 defaultFormat=rrggbb
-history=#79363a,#c97e7f,#d18172,#dad0c9,#66355b,#d6bdca,#a66a88,#97597c,#8d5178
+history=#7f7f7f,#e276c1,#9466bd,#d62727,#2c9f2c,#ff7f0d,#1f76b4,#be0f09,#99ffcb
 
 [Containments][49][Applets][68][Shortcuts]
 global=Meta+Shift+C

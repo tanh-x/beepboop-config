@@ -2,15 +2,15 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=1
-ArtColorSel.LightPieces=1
+ArtColorSel.Light=0.5155591815114092
+ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=5
-ArtColorSel.RingPieces=1
-ArtColorSel.SelColorH=0
-ArtColorSel.SelColorS=0
-ArtColorSel.SelColorX=1
-ArtColorSel.defaultHueSteps=12
-ArtColorSel.defaultSaturationSteps=7
+ArtColorSel.RingPieces=25
+ArtColorSel.SelColorH=0.4628589585050838
+ArtColorSel.SelColorS=0.9811237865383522
+ArtColorSel.SelColorX=0.5155591815114092
+ArtColorSel.defaultHueSteps=25
+ArtColorSel.defaultSaturationSteps=6
 ArtColorSel.defaultValueScaleSteps=11
 ArtColorSel.enforceGamutMask=false
 ArtColorSel.lumaB=0.0722
@@ -18,7 +18,7 @@ ArtColorSel.lumaG=0.7152
 ArtColorSel.lumaGamma=2.2
 ArtColorSel.lumaR=0.2126
 ArtColorSel.showBgColor=true
-ArtColorSel.showValueScale=false
+ArtColorSel.showValueScale=true
 AutoSaveInterval=180
 BackgroundColorForNewImage=227,227,227
 BackgroundOpacityForNewImage=255
@@ -29,40 +29,40 @@ CanvasSize/KeepAspectRatio=false
 ColorManagement/UseSystemMonitorProfile=false
 ConvertToImageColorSpaceOnImport=false
 CreateBackupFile=true
-CurrentWorkspace=main new
+CurrentWorkspace=main simple
 ExportConfiguration-image/jpeg=<!DOCTYPE params>\n<params>\n <param name="baseline" type="internal">true</param>\n <param name="exif" type="internal">true</param>\n <param name="filters" type="string"><![CDATA[]]></param>\n <param name="forceSRGB" type="internal">false</param>\n <param name="iptc" type="internal">true</param>\n <param name="optimize" type="internal">true</param>\n <param name="progressive" type="internal">false</param>\n <param name="quality" type="internal">100</param>\n <param name="saveProfile" type="internal">true</param>\n <param name="smoothing" type="internal">0</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="subsampling" type="internal">0</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-g10.icc" g="1" b="1" r="1"/>\n</color>\n]]></param>\n <param name="xmp" type="internal">true</param>\n</params>\n
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">8</param>\n <param type="internal" name="downsample">true</param>\n <param type="internal" name="forceSRGB">true</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">false</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" g="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n</params>\n
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">8</param>\n <param type="internal" name="downsample">true</param>\n <param type="internal" name="forceSRGB">true</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">false</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" g="1" b="1" r="1"/>\n</color>\n]]></param>\n</params>\n
 FilterSelector/LastUsedFilter=hsvadjustment
 GamutMasks.viewMode=0
 KineticScrollingEnabled=true
 KineticScrollingGesture=2
 KineticScrollingHideScrollbar=false
 KineticScrollingSensitivity=75
-KisDlgPreferences/CurrentPage=
+KisDlgPreferences/CurrentPage=general
 Krita/Ocio/DisplayDevice=sRGB
 Krita/Ocio/DisplayLook=None
 Krita/Ocio/DisplayView=Raw
 Krita/Ocio/InputColorSpace=raw
 Krita/Ocio/OcioColorManagementMode=0
 Krita/Ocio/OcioConfigPath=
-Krita/Ocio/OcioLockColorVisualRepresentation=false
+Krita/Ocio/OcioLockColorVisualRepresentation=true
 Krita/Ocio/OcioLutPath=
-Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB r="0.658823549747467" g="0.192156866192818" space="sRGB-elle-V2-srgbtrc.icc" b="0.286274522542953"/>\n</LastBackGroundColor>\n
+Krita/Ocio/UseOcio=true
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB r="0" b="0" space="sRGB-elle-V2-srgbtrc.icc" g="0"/>\n</LastBackGroundColor>\n
 LastEraser_0=Hard eraser
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB r="1" g="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</LastForeGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB r="0.0549019612371922" b="0.521568655967712" space="sRGB-elle-V2-srgbtrc.icc" g="0.584313750267029"/>\n</LastForeGroundColor>\n
 LastPreset=b) Basic-1
 LastPreset_-1=b) Basic-1
-LineSmoothingDelayDistance=72
-LineSmoothingDistance=91
+LineSmoothingDelayDistance=12
+LineSmoothingDistance=132.9
 LineSmoothingFinishStabilizedCurve=true
 LineSmoothingScalableDistance=true
 LineSmoothingSmoothPressure=true
 LineSmoothingStabilizeSensors=true
 LineSmoothingTailAggressiveness=0.84
-LineSmoothingType=2
+LineSmoothingType=1
 LineSmoothingUseDelayDistance=true
-MixerSliderColors=RGBA,U16,sRGB-elle-V2-srgbtrc.icc,0.32156863808631897,0.6039215922355652,0.32156863808631897,1.0|RGBA,U8,sRGB-elle-V2-srgbtrc.icc,0.0,0.0,0.0,1.0
+MixerSliderColors=RGBA,U8,sRGB-elle-V2-srgbtrc.icc,0.24705882370471954,0.05098039284348488,0.14901961386203766,1.0|RGBA,U8,sRGB-elle-V2-srgbtrc.icc,0.8313725590705872,0.7843137383460999,0.800000011920929,1.0;RGBA,U8,sRGB-elle-V2-srgbtrc.icc,0.8509804010391235,0.7921568751335144,0.7803921699523926,1.0|RGBA,U8,sRGB-elle-V2-srgbtrc.icc,0.250980406999588,0.16078431904315948,0.07450980693101883,1.0
 NumberOfLayersForNewImage=1
 OpenGLFilterMode=3
 PinnedFonts=Barlow Semi Condensed,CMU Sans Serif,Liberation Serif,Merriweather,Planewalker
@@ -90,8 +90,8 @@ autoPinLayers=true
 autosavefileshidden=true
 backupfilelocation=2
 backupfilesuffix=~
-baseLength=41
-brushHudSettings=<!DOCTYPE hud_properties>\n<hud_properties>\n <version type="value" value="1"/>\n <paintbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="angle"/>\n  </properties_list>\n </paintbrush>\n <colorsmudge>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="smudge_mode"/>\n   <item_3 type="value" value="smudge_length"/>\n   <item_4 type="value" value="smudge_color_rate"/>\n   <item_5 type="value" value="flow"/>\n   <item_6 type="value" value="smudge_paint_thickness_rate"/>\n  </properties_list>\n </colorsmudge>\n <sketchbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="size"/>\n  </properties_list>\n </sketchbrush>\n <hairybrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n  </properties_list>\n </hairybrush>\n <experimentbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="shape_windingfill"/>\n  </properties_list>\n </experimentbrush>\n <spraybrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="spray_particlecount"/>\n   <item_3 type="value" value="spray_density"/>\n  </properties_list>\n </spraybrush>\n <hatchingbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="hatching_angle"/>\n   <item_3 type="value" value="hatching_thickness"/>\n   <item_4 type="value" value="hatching_separation"/>\n  </properties_list>\n </hatchingbrush>\n <gridbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="grid_divisionlevel"/>\n  </properties_list>\n </gridbrush>\n <curvebrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="curve_historysize"/>\n   <item_2 type="value" value="curve_linewidth"/>\n   <item_3 type="value" value="curve_lineopacity"/>\n   <item_4 type="value" value="curve_connectionline"/>\n  </properties_list>\n </curvebrush>\n <dynabrush>\n  <properties_list type="array">\n   <item_0 type="value" value="dyna_diameter"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="dyna_mass"/>\n   <item_3 type="value" value="dyna_drag"/>\n  </properties_list>\n </dynabrush>\n <particlebrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="particle_particles"/>\n   <item_2 type="value" value="particle_opecityweight"/>\n   <item_3 type="value" value="particle_iterations"/>\n  </properties_list>\n </particlebrush>\n <duplicate>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="clone_healing"/>\n   <item_3 type="value" value="clone_movesource"/>\n  </properties_list>\n </duplicate>\n <deformbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="deform_amount"/>\n   <item_3 type="value" value="deform_mode"/>\n  </properties_list>\n </deformbrush>\n <tangentnormal>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n  </properties_list>\n </tangentnormal>\n <filter>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n  </properties_list>\n </filter>\n <roundmarker>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="size"/>\n  </properties_list>\n </roundmarker>\n</hud_properties>\n
+baseLength=45
+brushHudSettings=<!DOCTYPE hud_properties>\n<hud_properties>\n <version value="1" type="value"/>\n <paintbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="angle" type="value"/>\n  </properties_list>\n </paintbrush>\n <colorsmudge>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="smudge_mode" type="value"/>\n   <item_3 value="smudge_length" type="value"/>\n   <item_4 value="smudge_color_rate" type="value"/>\n   <item_5 value="flow" type="value"/>\n   <item_6 value="smudge_paint_thickness_rate" type="value"/>\n  </properties_list>\n </colorsmudge>\n <sketchbrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="size" type="value"/>\n  </properties_list>\n </sketchbrush>\n <hairybrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </hairybrush>\n <experimentbrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="shape_windingfill" type="value"/>\n  </properties_list>\n </experimentbrush>\n <spraybrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="spray_particlecount" type="value"/>\n   <item_3 value="spray_density" type="value"/>\n  </properties_list>\n </spraybrush>\n <hatchingbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="hatching_angle" type="value"/>\n   <item_3 value="hatching_thickness" type="value"/>\n   <item_4 value="hatching_separation" type="value"/>\n  </properties_list>\n </hatchingbrush>\n <gridbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="grid_divisionlevel" type="value"/>\n  </properties_list>\n </gridbrush>\n <curvebrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="curve_historysize" type="value"/>\n   <item_2 value="curve_linewidth" type="value"/>\n   <item_3 value="curve_lineopacity" type="value"/>\n   <item_4 value="curve_connectionline" type="value"/>\n  </properties_list>\n </curvebrush>\n <dynabrush>\n  <properties_list type="array">\n   <item_0 value="dyna_diameter" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="dyna_mass" type="value"/>\n   <item_3 value="dyna_drag" type="value"/>\n  </properties_list>\n </dynabrush>\n <particlebrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="particle_particles" type="value"/>\n   <item_2 value="particle_opecityweight" type="value"/>\n   <item_3 value="particle_iterations" type="value"/>\n  </properties_list>\n </particlebrush>\n <duplicate>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="clone_healing" type="value"/>\n   <item_3 value="clone_movesource" type="value"/>\n  </properties_list>\n </duplicate>\n <deformbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="deform_amount" type="value"/>\n   <item_3 value="deform_mode" type="value"/>\n  </properties_list>\n </deformbrush>\n <tangentnormal>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </tangentnormal>\n <filter>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </filter>\n <roundmarker>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="size" type="value"/>\n  </properties_list>\n </roundmarker>\n</hud_properties>\n
 calculateAnimationCacheInBackground=true
 canvasBorderColor=38,40,41
 canvasState=OPENGL_SUCCESS
@@ -134,7 +134,7 @@ eraserCursorStyle=9
 eraserOutlineStyle=2
 favoriteCompositeOps=normal,erase,multiply,burn,darken,add,dodge,screen,overlay,soft_light_svg,luminize,lighten,saturation,color,divide,easy dodge
 favoritePresetsTag=★ My Favorites
-filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\x80\x00\x00\x06x\x00\x00\r\xac\x00\x00\x08\x1c\x00\x00\x0b\x80\x00\x00\x06x\x00\x00\r\xac\x00\x00\x08\x1c\x00\x00\x00\x02\x00\x00\x00\x00\x07\x80\x00\x00\x0b\x80\x00\x00\x06x\x00\x00\r\xac\x00\x00\x08\x1c
+filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07\x80\x00\x00\x02r\x00\x00\t\xb2\x00\x00\x047\x00\x00\x07\x83\x00\x00\x02\x8f\x00\x00\t\xaf\x00\x00\x043\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x07\x83\x00\x00\x02\x8f\x00\x00\t\xaf\x00\x00\x043
 filterdialog/rememberlastpreset=false
 forceAlwaysFullSizedEraserOutline=false
 forceAlwaysFullSizedOutline=false
@@ -172,7 +172,7 @@ imageResolutionDef=300
 imageWidthDef=4800
 imagesizedlg_imsizeunit=px
 imagesizedlg_printSizeSeparatly=false
-imagesizedlg_ratioLock=true
+imagesizedlg_ratioLock=false
 imagesizedlg_resunit=Pixels/Inch
 imagesizedlg_sizeunit=in
 internal_selector_active_color_set=Animation Color Set
@@ -192,7 +192,7 @@ maxAllowedSpeedValue=35
 maxNumberOfThreads=14
 maxSwapSize=24576
 maximumBrushSize=1000
-mdiBackgroundColorXML=<!DOCTYPE color>\n<color channeldepth="U8">\n <RGB r="0.0980392172932625" g="0.0980392172932625" space="sRGB-elle-V2-srgbtrc.icc" b="0.0980392172932625"/>\n</color>\n
+mdiBackgroundColorXML=<!DOCTYPE color>\n<color channeldepth="U8">\n <RGB r="0.0980392172932625" b="0.0980392172932625" space="sRGB-elle-V2-srgbtrc.icc" g="0.0980392172932625"/>\n</color>\n
 mdiBackgroundImage=
 mdi_rubberband=1
 mdi_viewmode=1
@@ -201,14 +201,15 @@ memoryPoolLimitPercent=0
 memorySoftLimitPercent=50
 monitorProfile=sRGB built-in
 monitorProfile/OverrideX11=false
+monitorProfileDell Inc._DELL P2319H-_KJ59R03J003B-=sRGB built-in
 monitorProfileMicrostep_MSI G273CQ-_CD0H034800571=sRGB built-in
 monitorProfileNajing CEC Panda FPD Technology CO. ltd__=sRGB built-in
 monitorProfileWacom Tech_Cintiq 16-_0DW00X1000235=sRGB built-in
 monitorProfileWacom Tech_Cintiq Pro 13_8KQ0061005681=sRGB-elle-V2-srgbtrc.icc
 monitorProfile_1=sRGB built-in
 monitorProfile_2=sRGB built-in
-moveToolChangedValueX=676
-moveToolChangedValueY=-217
+moveToolChangedValueX=2835
+moveToolChangedValueY=3562
 moveToolUnit=0
 needsPixmapCacheWorkaround=false
 newCursorStyle=3
@@ -273,8 +274,8 @@ popuppalette/size=385
 popuppalette/useDynamicSlotCount=true
 popuppalette/usevisualcolorselector=false
 preferredVectorImportResolution=360
-presetIconSize=41
-presethistory=b1) Airbrush - deevad 23.01,b) Basic-5 Size,i) Wet Paint,i) Wet Paint Details,g) Wet Modeling - deevad 23.01,d) Block Brush Glazing - deevad 23.01,f) Flat-Paint-Brush Creamy,Hard eraser,b) Basic-2 Opacity,b) Basic-1
+presetIconSize=45
+presethistory=j) WaterC Water-Pattern,b) Basic-1,a) Eraser Small,f) Bristle Thick Textured - deevad 23.01,b) Basic-5 Size,b2) Basic Size Fill Area - deevad 23.01,i) Wet Paint,b) Basic-2 Opacity,b1) Airbrush - deevad 23.01,i) Wet Paint Details
 recorder/captureinterval=2
 recorder/quality=60
 recorder/recordautomatically=true
@@ -342,7 +343,7 @@ DontUseNativeFileDialog=false
 ImportAudio=/home/kew/Pictures/a/ajer-collab/scene-14
 OpenDocument=/home/kew/Pictures/a/prac
 OpenReferenceImage=/home/kew/Pictures
-SaveAs=/home/kew/Pictures/a
+SaveAs=/home/kew/Pictures/a/eb
 krita_resources=/home/kew/Downloads
 
 [FileDialogSize]
@@ -361,8 +362,8 @@ global/itemSizeCustom=32
 global/viewMode=icon
 
 [KFileDialog Settings]
-Recent Files[$e]=index.png,file:$HOME/Pictures/a/cow-alt-3.png,file:$HOME/Pictures/a/cow-alt-4.png,file:$HOME/Pictures/a/cow-alt-4.kra,file:$HOME/Pictures/a/cow-alt-3.jpg,file:$HOME/Pictures/a/cow-alt-3.kra,file:$HOME/Pictures/a/cow-alt-2.kra,file:$HOME/Pictures/a/prac/p5.kra,file:$HOME/Pictures/a/prac/p7.kra,file:$HOME/Pictures/a/prac/p8.kra,file:$HOME/Pictures/a/prac/p9.kra,file:$HOME/Pictures/a/prac/p11-apm.kra,file:$HOME/Downloads/Pigment.O-master.zip,file:$HOME/Downloads/krita_ai_diffusion-1.28.1.zip,file:$HOME/Downloads/Flat_Brushes_Speedpainting_for Krita5_by_David-Revoy_2022.bundle,file:$HOME/Downloads/Flat_Brushes_Speedpainting_NO-TILT_for Krita5_by_David-Revoy_2022.bundle
-Recent URLs[$e]=file:$HOME/Pictures/a/ajer-collab/,file:$HOME/Downloads/,file:$HOME/Documents/,file:$HOME/things/stars/,file:$HOME/Pictures/,file:$HOME/Pictures/spectacle/,file:$HOME/,file:$HOME/things/_s/,file:///mnt/secondary/large/krita-comfyui/,file:$HOME/Pictures/a/
+Recent Files[$e]=index.png,file:$HOME/Pictures/a/prac/p7.kra,file:$HOME/Pictures/a/prac/p7-cc.png,file:$HOME/Pictures/a/prac/p11-apm.kra,file:$HOME/Pictures/a/eb/deathofaj.png,file:$HOME/Pictures/a/eb/deathofaj.kra,file:$HOME/Pictures/a/cow-alt-3.png,file:$HOME/Pictures/a/cow-alt-4.png,file:$HOME/Pictures/a/cow-alt-4.kra,file:$HOME/Pictures/a/cow-alt-3.jpg,file:$HOME/Pictures/a/cow-alt-3.kra,file:$HOME/Pictures/a/cow-alt-2.kra,file:$HOME/Pictures/a/prac/p5.kra,file:$HOME/Pictures/a/prac/p8.kra,file:$HOME/Pictures/a/prac/p9.kra
+Recent URLs[$e]=file:$HOME/Documents/,file:$HOME/things/stars/,file:$HOME/Pictures/,file:$HOME/Pictures/spectacle/,file:$HOME/,file:$HOME/things/_s/,file:///mnt/secondary/large/krita-comfyui/,file:$HOME/Pictures/a/,file:$HOME/Pictures/a/eb/,file:$HOME/Pictures/a/prac/
 detailViewIconSize=16
 iconViewIconSize=64
 
@@ -405,7 +406,7 @@ growSelection=1
 opacitySpread=100
 sampleLayersMode=sampleAllLayers
 stopGrowingAtDarkestPixel=false
-threshold=13
+threshold=4
 useSelectionAsBoundary=true
 
 [KisToolSelectElliptical]
@@ -434,9 +435,9 @@ layoutDir=0
 
 [KritaFill/KisToolFill]
 antiAlias=true
-featherAmount=1
+featherAmount=2
 fillSelection=false
-growSelection=1
+growSelection=2
 opacitySpread=99
 patternScale=100
 sampleLayersMode=allLayers
@@ -485,7 +486,7 @@ amount=0.05
 amountHasPressure=false
 flow=0.2
 reverseDirection=false
-size=768.0208397489885
+size=163.83699035050523
 sizeHasPressure=false
 spacing=0.2
 useWashMode=false
@@ -497,11 +498,11 @@ useWashMode=false
 2 screens: Height=1361
 2 screens: Width=3434
 2 screens: Window-Maximized=true
-3 screens: Height=1052
-3 screens: Width=1920
+3 screens: Height=1047
+3 screens: Width=1914
 3 screens: Window-Maximized=true
 3440x1440 screen: Window-Maximized=true
-State=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AGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAAAAAAAD7AAAAOABUAGUAeAB0AEQAbwBjAHUAbQBlAG4AdABJAG4AcwBwAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAgAABJoAAAIVAAABKgAAAK77AAAAEgBMAHUAdABEAG8AYwBrAGUAcgAAAAKYAAABQAAAAUAA////+wAAABoAUABhAGwAZQB0AHQAZQBEAG8AYwBrAGUAcgAAAANeAAAAnwAAAGMA////+wAAABQARwByAGkAZABEAG8AYwBrAGUAcgAAAAAA/////wAAASoA////+wAAACoAQQBuAGkAbQBhAHQAaQBvAG4AQwB1AHIAdgBlAHMARABvAGMAawBlAHIAAAAAAP////8AAABoAP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAAB1AP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABIA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAPBAAAAPAAAADMA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAArAD////7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAAHcA////+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAAdQD////7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAKQA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAdQD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAANBAAAAvAAAAHUA////+wAAACAAUwB0AG8AcgB5AGIAbwBhAHIAZABEAG8AYwBrAGUAcgAAAAAA/////wAAAJgA////+wAAACwAVwBpAGQAZQBHAGEAbQB1AHQAQwBvAGwAbwByAFMAZQBsAGUAYwB0AG8AcgAAAAAA/////wAAAK0A////AAAAAgAAB4AAAAB3/AEAAAAB+wAAABoAVABvAG8AbABCAGEAcgBEAG8AYwBrAGUAcgAAAAAA/////wAAAAAAAAAAAAAAAwAAB3AAAABE/AEAAAAE+wAAABwARgBsAGkAcABiAG8AbwBrAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAHgBBAG4AaQBtAGEAdABpAG8AbgBEAG8AYwBrAGUAcgAAAAAA/////wAAAAAAAAAA+wAAACAATwBuAGkAbwBuAFMAawBpAG4AcwBEAG8AYwBrAGUAcgAAAAAA/////wAAARoA////+wAAABwAVABpAG0AZQBsAGkAbgBlAEQAbwBjAGsAZQByAAAAAAD/////AAADRAD///8AAATcAAADxAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAB4AQgByAHUAcwBoAGUAcwBBAG4AZABTAHQAdQBmAGYBAAABnf////8AAAAAAAAAAA==
+State=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AFMAbgBhAHAAcwBoAG8AdAAAAALfAAAApAAAAHUA////+wAAABIATABvAGcARABvAGMAawBlAHIAAAADQQAAALwAAAB1AP////sAAAAgAFMAdABvAHIAeQBiAG8AYQByAGQARABvAGMAawBlAHICAAACfwAAApQAAAJaAAABpPsAAAAsAFcAaQBkAGUARwBhAG0AdQB0AEMAbwBsAG8AcgBTAGUAbABlAGMAdABvAHIAAAAAAP////8AAACtAP///wAAAAIAAAeAAAAAIPwBAAAAAvsAAAAOAFQAbwBvAGwAQgBvAHgBAAAAAAAAB4AAAAAvAP////sAAAAaAFQAbwBvAGwAQgBhAHIARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAAAAAAMAAAdwAAAARPwBAAAABPsAAAAcAEYAbABpAHAAYgBvAG8AawBEAG8AYwBrAGUAcgAAAAAA/////wAAAAAAAAAA+wAAAB4AQQBuAGkAbQBhAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAgAE8AbgBpAG8AbgBTAGsAaQBuAHMARABvAGMAawBlAHIAAAAAAP////8AAAEaAP////sAAAAcAFQAaQBtAGUAbABpAG4AZQBEAG8AYwBrAGUAcgAAAAAA/////wAAA0QA////AAAFPAAAA3AAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAeAEIAcgB1AHMAaABlAHMAQQBuAGQAUwB0AHUAZgBmAQAAAZ3/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 eDP-1 HDMI-1 Window-Maximized 1920x1080 eDP-1=true
 eDP-1 Height 1920x1080=999
@@ -510,7 +511,7 @@ eDP-1 Width 1920x1080=946
 eDP-1 Width 1920x1080 eDP-1=948
 eDP-1 Window-Maximized 1920x1080=true
 eDP-1 Window-Maximized 1920x1080 eDP-1=true
-ko_geometry=AdnQywADAAAAAAeAAAAFoAAADv8AAAnXAAAG9AAABpsAABDtAAAMGQAAAAICAAAAB4AAAAeAAAAFvAAADv8AAAnX
+ko_geometry=AdnQywADAAAAAAeAAAAALgAADv8AAAQ3AAAHgAAAAagAAAx5AAAENwAAAAACAAAAB4AAAAeAAAAASgAADv8AAAQ3
 
 [MainWindow][DockWidget AnimationCurvesDocker]
 DockArea=2
@@ -531,10 +532,10 @@ yPosition=0
 [MainWindow][DockWidget ArtisticColorSelector]
 DockArea=2
 Locked=false
-height=284
-width=334
+height=256
+width=278
 xPosition=0
-yPosition=0
+yPosition=16
 
 [MainWindow][DockWidget ChannelDocker]
 DockArea=2
@@ -545,20 +546,20 @@ xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget ColorSelectorNg]
-DockArea=1
+DockArea=2
 Locked=false
-height=242
-width=285
+height=299
+width=279
 xPosition=0
 yPosition=16
 
 [MainWindow][DockWidget CompositionDocker]
 DockArea=2
 Locked=false
-height=300
-width=400
+height=97
+width=317
 xPosition=0
-yPosition=0
+yPosition=16
 
 [MainWindow][DockWidget DigitalMixer]
 DockArea=2
@@ -571,10 +572,10 @@ yPosition=0
 [MainWindow][DockWidget GamutMask]
 DockArea=2
 Locked=false
-height=322
-width=363
+height=464
+width=640
 xPosition=0
-yPosition=0
+yPosition=16
 
 [MainWindow][DockWidget GridDocker]
 DockArea=2
@@ -585,10 +586,10 @@ xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget HistogramDocker]
-DockArea=1
+DockArea=2
 Locked=false
-height=69
-width=285
+height=66
+width=317
 xPosition=0
 yPosition=16
 
@@ -603,8 +604,8 @@ yPosition=16
 [MainWindow][DockWidget KisLayerBox]
 DockArea=2
 Locked=false
-height=546
-width=306
+height=344
+width=279
 xPosition=0
 yPosition=16
 
@@ -635,10 +636,10 @@ yPosition=0
 [MainWindow][DockWidget OverviewDocker]
 DockArea=2
 Locked=false
-height=192
-width=306
+height=103
+width=100
 xPosition=0
-yPosition=16
+yPosition=0
 
 [MainWindow][DockWidget PaletteDocker]
 DockArea=2
@@ -657,10 +658,10 @@ xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget PresetDocker]
-DockArea=2
+DockArea=1
 Locked=false
-height=166
-width=306
+height=363
+width=289
 xPosition=0
 yPosition=16
 
@@ -697,10 +698,10 @@ xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget SpecificColorSelector]
-DockArea=1
+DockArea=2
 Locked=false
 height=177
-width=285
+width=279
 xPosition=0
 yPosition=16
 
@@ -737,12 +738,12 @@ xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget ToolBox]
-DockArea=1
+DockArea=4
 Locked=false
-height=947
-width=67
-xPosition=0
-yPosition=17
+height=32
+width=1905
+xPosition=15
+yPosition=0
 
 [MainWindow][DockWidget TouchDocker]
 DockArea=2
@@ -771,10 +772,10 @@ yPosition=16
 [MainWindow][DockWidget imageDiffusion]
 DockArea=2
 Locked=false
-height=464
-width=640
+height=30
+width=100
 xPosition=0
-yPosition=16
+yPosition=0
 
 [MainWindow][DockWidget lastdocumentsdocker]
 DockArea=2
@@ -795,24 +796,24 @@ yPosition=16
 [MainWindow][DockWidget pykrita_pigment_o_docker]
 DockArea=1
 Locked=false
-height=428
-width=285
+height=464
+width=640
 xPosition=0
 yPosition=16
 
 [MainWindow][DockWidget quick_settings_docker]
-DockArea=2
+DockArea=1
 Locked=false
-height=464
-width=640
+height=184
+width=289
 xPosition=0
 yPosition=16
 
 [MainWindow][DockWidget sharedtooldocker]
 DockArea=1
 Locked=false
-height=367
-width=285
+height=452
+width=289
 xPosition=0
 yPosition=16
 
@@ -820,7 +821,7 @@ yPosition=16
 pinControls=false
 
 [Pigment.O]
-analyse_display=True
+analyse_display=False
 chan_aaa=False
 chan_ard=False
 chan_cmy=False
@@ -839,7 +840,7 @@ chan_xyy=False
 chan_xyz=False
 chan_yuv=False
 cs_illuminant=D65
-cs_luminosity=ITU-R BT.709
+cs_luminosity=ITU-R BT.2020
 cs_matrix=sRGB
 disp_labels=True
 disp_values=True
@@ -852,21 +853,21 @@ dot_edit=False
 dot_interpolation=RGB
 gamut_mask=None
 gamut_profile=[[(0.5, 0.5), (0.5, 0.1), (0.84641, 0.7), (0.15359, 0.7)], [(0.5, 0.5), (0.5, 0.1), (0.9, 0.5), (0.5, 0.9), (0.1, 0.5)], [(0.5, 0.5), (0.5, 0.1), (0.9, 0.5), (0.5, 0.9), (0.1, 0.5)], [(0.5, 0.275), (0.5, 0.1), (0.675, 0.275), (0.5, 0.45), (0.325, 0.275), (0.5, 0.725), (0.5, 0.55), (0.675, 0.725), (0.5, 0.9), (0.325, 0.725)], [(0.5, 0.5), (0.5, 0.15359), (0.8, 0.32679), (0.8, 0.67321), (0.5, 0.84641), (0.2, 0.67321), (0.2, 0.32679)]]
-har_01={'active': True, 'hex6': '#287eb0', 'aaa_1': 0.43706964872167986, 'rgb_1': 0.15686274509803924, 'rgb_2': 0.4948105037067836, 'rgb_3': 0.6901960784313725, 'uvd_1': 0.2926714807109267, 'uvd_2': -0.36435945740843867, 'uvd_3': 0.44728965530609033, 'cmy_1': 0.8431372549019608, 'cmy_2': 0.5051894962932164, 'cmy_3': 0.30980392156862746, 'cmyk_1': 0.7727272727272727, 'cmyk_2': 0.283087054288467, 'cmyk_3': 0.0, 'cmyk_4': 0.30980392156862746, 'ryb_1': 0.15686274509803924, 'ryb_2': 0.36372917001904803, 'ryb_3': 0.6901960784313725, 'yuv_1': 0.43706964872167986, 'yuv_2': 0.6364121738034558, 'yuv_3': 0.32206826033550895, 'hue_d': 0.561057992101434, 'hue_a': 0.6635606480519178, 'hsv_1': 0.561057992101434, 'hsv_2': 0.7727272727272727, 'hsv_3': 0.6901960784313725, 'hsl_1': 0.561057992101434, 'hsl_2': 0.6296296296296297, 'hsl_3': 0.4235294117647059, 'hcy_1': 0.561057992101434, 'hcy_2': 0.6411035505283339, 'hcy_3': 0.43706964872167986, 'ard_1': 0.561057992101434, 'ard_2': 0.6493039778594738, 'ard_3': 0.44728965530609033, 'xyz_1': 0.16191918819924173, 'xyz_2': 0.18550709684413003, 'xyz_3': 0.4379314446827437, 'xyy_1': 0.2061725275890634, 'xyy_2': 0.2362071318873038, 'xyy_3': 0.18550709684413003, 'lab_1': 0.501573598590643, 'lab_2': 0.48403122910646823, 'lab_3': 0.33216516751284597, 'lch_1': 0.501573598590643, 'lch_2': 0.3371856025386681, 'lch_3': 0.7349025319112681, 'name': '', 'kkk_percent': 0.6149068322981367, 'kkk_scale': 7763, 'hex6_d': '#2474b0', 'aaa_d1': 0, 'rgb_d1': 0.1420991926182238, 'rgb_d2': 0.4579422700972586, 'rgb_d3': 0.6901960784313725, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
-har_02={'active': True, 'hex6': '#2855b0', 'aaa_1': 0.321828942007899, 'rgb_1': 0.15686274509803924, 'rgb_2': 0.3336797616573138, 'rgb_3': 0.6901960784313725, 'uvd_1': 0.15312809963389507, 'uvd_2': -0.4449248268218662, 'uvd_3': 0.3935793806177512, 'cmy_1': 0.8431372549019608, 'cmy_2': 0.6663202383426863, 'cmy_3': 0.30980392156862746, 'cmyk_1': 0.7727272727272727, 'cmyk_2': 0.5165435271442329, 'cmyk_3': 0.0, 'cmyk_4': 0.30980392156862746, 'ryb_1': 0.15686274509803924, 'ryb_2': 0.2896549191015779, 'ryb_3': 0.6901960784313725, 'yuv_1': 0.321828942007899, 'yuv_2': 0.698516456361001, 'yuv_3': 0.3952462554547499, 'hue_d': 0.6114113489918934, 'hue_a': 0.7113963370978543, 'hsv_1': 0.6114113489918934, 'hsv_2': 0.7727272727272727, 'hsv_3': 0.6901960784313725, 'hsl_1': 0.6114113489918934, 'hsl_2': 0.6296296296296297, 'hsl_3': 0.4235294117647059, 'hcy_1': 0.6114113489918934, 'hcy_2': 0.5431773179972008, 'hcy_3': 0.321828942007899, 'ard_1': 0.6114113489918934, 'ard_2': 0.6014458736268897, 'ard_3': 0.3935793806177512, 'xyz_1': 0.11964192785084016, 'xyz_2': 0.10095257614732693, 'xyz_3': 0.4238390285077066, 'xyy_1': 0.1856544109143633, 'xyy_2': 0.15665320169602875, 'xyy_3': 0.10095257614732693, 'lab_1': 0.38012853855742335, 'lab_2': 0.5355380221314304, 'lab_3': 0.23547547337252184, 'lch_1': 0.38012853855742335, 'lch_2': 0.5338021214064457, 'lch_3': 0.7712546903703158, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#2855b0', 'aaa_d1': 0, 'rgb_d1': 0.15686274509803924, 'rgb_d2': 0.3336797616573138, 'rgb_d3': 0.6901960784313725, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
-har_03={'active': True, 'hex6': '#282cb0', 'aaa_1': 0.20658823529411802, 'rgb_1': 0.15686274509803924, 'rgb_2': 0.1725490196078436, 'rgb_3': 0.6901960784313725, 'uvd_1': 0.013584718556863069, 'uvd_2': -0.5254901962352938, 'uvd_3': 0.3398691059294119, 'cmy_1': 0.8431372549019608, 'cmy_2': 0.8274509803921564, 'cmy_3': 0.30980392156862746, 'cmyk_1': 0.7727272727272727, 'cmyk_2': 0.7499999999999992, 'cmyk_3': 0.0, 'cmyk_4': 0.30980392156862746, 'ryb_1': 0.15686274509803924, 'ryb_2': 0.1721008403361349, 'ryb_3': 0.6901960784313725, 'yuv_1': 0.20658823529411802, 'yuv_2': 0.7606207389185463, 'yuv_3': 0.4684242505739912, 'hue_d': 0.6617647058823528, 'hue_a': 0.7592320261437907, 'hsv_1': 0.6617647058823528, 'hsv_2': 0.7727272727272727, 'hsv_3': 0.6901960784313725, 'hsl_1': 0.6617647058823528, 'hsl_2': 0.6296296296296297, 'hsl_3': 0.4235294117647059, 'hcy_1': 0.6617647058823528, 'hcy_2': 0.6095294582839065, 'hcy_3': 0.20658823529411802, 'ard_1': 0.6617647058823528, 'ard_2': 0.5384615384615385, 'ard_3': 0.3398691059294119, 'xyz_1': 0.0960957323953298, 'xyz_2': 0.05386018523630621, 'xyz_3': 0.41599029888418537, 'xyy_1': 0.16979658064847827, 'xyy_2': 0.0951683811367975, 'xyy_3': 0.05386018523630621, 'lab_1': 0.27807379005774413, 'lab_2': 0.5882099737508377, 'lab_3': 0.1520323859476519, 'lch_1': 0.27807379005774413, 'lch_2': 0.7179483544055446, 'lch_3': 0.7895134859032134, 'name': '', 'kkk_percent': 0.8944099378881988, 'kkk_scale': 10838, 'hex6_d': '#1f24b0', 'aaa_d1': 0, 'rgb_d1': 0.12425990003844677, 'rgb_d2': 0.14480584390619033, 'rgb_d3': 0.6901960784313725, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
-har_04={'active': True, 'hex6': '#4d28b0', 'aaa_1': 0.22629090556363884, 'rgb_1': 0.30230721263770505, 'rgb_2': 0.15686274509803924, 'rgb_3': 0.6901960784313725, 'uvd_1': -0.1259586625201689, 'uvd_2': -0.4606110981090557, 'uvd_3': 0.383121858082339, 'cmy_1': 0.6976927873622949, 'cmy_2': 0.8431372549019608, 'cmy_3': 0.30980392156862746, 'cmyk_1': 0.5619980725987795, 'cmyk_2': 0.7727272727272727, 'cmyk_3': 0.0, 'cmyk_4': 0.30980392156862746, 'ryb_1': 0.30230721263770505, 'ryb_2': 0.15686274509803924, 'ryb_3': 0.6901960784313725, 'yuv_1': 0.22629090556363884, 'yuv_2': 0.7500027877062587, 'yuv_3': 0.5482704515329351, 'hue_d': 0.7121180627728122, 'hue_a': 0.8055526686528556, 'hsv_1': 0.7121180627728122, 'hsv_2': 0.7727272727272727, 'hsv_3': 0.6901960784313725, 'hsl_1': 0.7121180627728122, 'hsl_2': 0.6296296296296297, 'hsl_3': 0.4235294117647059, 'hcy_1': 0.7121180627728122, 'hcy_2': 0.5995860410632547, 'hcy_3': 0.22629090556363884, 'ard_1': 0.7121180627728122, 'ard_2': 0.5905671296296295, 'ard_3': 0.383121858082339, 'xyz_1': 0.11660621344265316, 'xyz_2': 0.062329862466515576, 'xyz_3': 0.4165452987554526, 'xyy_1': 0.195818405753373, 'xyy_2': 0.10467138875942195, 'xyy_3': 0.062329862466515576, 'lab_1': 0.2999282071393949, 'lab_2': 0.6004011232672566, 'lab_3': 0.17054984618227031, 'lch_1': 0.2999282071393949, 'lch_2': 0.6888186681670369, 'lch_3': 0.7970799702796865, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#4d28b0', 'aaa_d1': 0, 'rgb_d1': 0.30230721263770505, 'rgb_d2': 0.15686274509803924, 'rgb_d3': 0.6901960784313725, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
-har_05={'active': True, 'hex6': '#7628b0', 'aaa_1': 0.26054730132335613, 'rgb_1': 0.46343795468717475, 'rgb_2': 0.15686274509803924, 'rgb_3': 0.6901960784313725, 'uvd_1': -0.2655020435972005, 'uvd_2': -0.3800457254730134, 'uvd_3': 0.4368321318038937, 'cmy_1': 0.5365620453128253, 'cmy_2': 0.8431372549019608, 'cmy_3': 0.30980392156862746, 'cmyk_1': 0.32854159974301383, 'cmyk_2': 0.7727272727272727, 'cmyk_3': 0.0, 'cmyk_4': 0.30980392156862746, 'ryb_1': 0.46343795468717475, 'ryb_2': 0.15686274509803924, 'ryb_3': 0.6901960784313725, 'yuv_1': 0.26054730132335613, 'yuv_2': 0.731541699239069, 'yuv_3': 0.62883582255767, 'hue_d': 0.7624714196632716, 'hue_a': 0.85170991246911, 'hsv_1': 0.7624714196632716, 'hsv_2': 0.7727272727272727, 'hsv_3': 0.6901960784313725, 'hsl_1': 0.7624714196632716, 'hsl_2': 0.6296296296296297, 'hsl_3': 0.4235294117647059, 'hcy_1': 0.7624714196632716, 'hcy_2': 0.5810361878142228, 'hcy_3': 0.26054730132335613, 'ard_1': 0.7624714196632716, 'ard_2': 0.6409085141479505, 'ard_3': 0.4368321318038937, 'xyz_1': 0.1608875723468188, 'xyz_2': 0.08516244553248262, 'xyz_3': 0.41862098812508597, 'xyy_1': 0.24205595082893805, 'xyy_2': 0.12812721596572915, 'xyy_3': 0.08516244553248262, 'lab_1': 0.3503569468121494, 'lab_2': 0.6132106081602748, 'lab_3': 0.21281908302947744, 'lch_1': 0.3503569468121494, 'lch_2': 0.6173800154590346, 'lch_3': 0.8097639742169664, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#7628b0', 'aaa_d1': 0, 'rgb_d1': 0.46343795468717475, 'rgb_d2': 0.15686274509803924, 'rgb_d3': 0.6901960784313725, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
+har_01={'active': True, 'hex6': '#52676e', 'aaa_1': 0.38872829099979206, 'rgb_1': 0.3215686274509804, 'rgb_2': 0.4043871682948797, 'rgb_3': 0.43137254901960786, 'uvd_1': 0.07172299375171882, 'uvd_2': -0.06839465197486316, 'uvd_3': 0.3857760923720612, 'cmy_1': 0.6784313725490196, 'cmy_2': 0.5956128317051204, 'cmy_3': 0.5686274509803921, 'cmyk_1': 0.25454545454545463, 'cmyk_2': 0.06255701895277907, 'cmyk_3': 0.0, 'cmyk_4': 0.5686274509803921, 'ryb_1': 0.3215686274509804, 'ryb_2': 0.3687791160375924, 'ryb_3': 0.43137254901960786, 'yuv_1': 0.38872829099979206, 'yuv_2': 0.5229813850074454, 'yuv_3': 0.4573535283535613, 'hue_d': 0.540959952885748, 'hue_a': 0.6444675107970161, 'hsv_1': 0.540959952885748, 'hsv_2': 0.2545454545454545, 'hsv_3': 0.43137254901960786, 'hsl_1': 0.540959952885748, 'hsl_2': 0.14583333333333334, 'hsl_3': 0.3764705882352941, 'hcy_1': 0.540959952885748, 'hcy_2': 0.17276762485200123, 'hcy_3': 0.38872829099979206, 'ard_1': 0.540959952885748, 'ard_2': 0.16643717686838602, 'ard_3': 0.3857760923720612, 'xyz_1': 0.11155390264380657, 'xyz_2': 0.12643335189699484, 'xyz_3': 0.1660146787607581, 'xyy_1': 0.27612220004041244, 'xyy_2': 0.3129523437270808, 'xyy_3': 0.12643335189699484, 'lab_1': 0.42220849751106276, 'lab_2': 0.4877044379662978, 'lab_3': 0.4676732236384893, 'lch_1': 0.42220849751106276, 'lch_2': 0.06917228681059334, 'lch_3': 0.6921543760154415, 'name': '', 'kkk_percent': 0.6149068322981367, 'kkk_scale': 7763, 'hex6_d': '#4a5f6e', 'aaa_d1': 0, 'rgb_d1': 0.2913033448673587, 'rgb_d2': 0.37425635967682985, 'rgb_d3': 0.43137254901960786, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
+har_02={'active': True, 'hex6': '#525e6e', 'aaa_1': 0.3650022631469549, 'rgb_1': 0.3215686274509804, 'rgb_2': 0.3712131919905771, 'rgb_3': 0.43137254901960786, 'uvd_1': 0.04299347411821232, 'uvd_2': -0.08498163979527473, 'uvd_3': 0.37471809464210903, 'cmy_1': 0.6784313725490196, 'cmy_2': 0.6287868080094229, 'cmy_3': 0.5686274509803921, 'cmyk_1': 0.25454545454545463, 'cmyk_2': 0.13946032765820762, 'cmyk_3': 0.0, 'cmyk_4': 0.5686274509803921, 'ryb_1': 0.3215686274509804, 'ryb_2': 0.35575627014402306, 'ryb_3': 0.43137254901960786, 'yuv_1': 0.3650022631469549, 'yuv_2': 0.5357675608281165, 'yuv_3': 0.47241958617222857, 'hue_d': 0.5913133097762073, 'hue_a': 0.6923031998429525, 'hsv_1': 0.5913133097762073, 'hsv_2': 0.2545454545454545, 'hsv_3': 0.43137254901960786, 'hsl_1': 0.5913133097762073, 'hsl_2': 0.14583333333333334, 'hsl_3': 0.3764705882352941, 'hcy_1': 0.5913133097762073, 'hcy_2': 0.11899552436059142, 'hcy_3': 0.3650022631469549, 'ard_1': 0.5913133097762073, 'ard_2': 0.14183860382670602, 'ard_3': 0.37471809464210903, 'xyz_1': 0.10354968048457644, 'xyz_2': 0.11042490757853458, 'xyz_3': 0.16334660545383695, 'xyy_1': 0.27443377754482096, 'xyy_2': 0.29265493027116346, 'xyy_3': 0.11042490757853458, 'lab_1': 0.3965194373435162, 'lab_2': 0.4978482409726774, 'lab_3': 0.4484048808857247, 'lch_1': 0.3965194373435162, 'lch_2': 0.10327993770966205, 'lch_3': 0.7433663348061206, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#525e6e', 'aaa_d1': 0, 'rgb_d1': 0.3215686274509804, 'rgb_d2': 0.3712131919905771, 'rgb_d3': 0.43137254901960786, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
+har_03={'active': True, 'hex6': '#52566e', 'aaa_1': 0.34127623529411755, 'rgb_1': 0.3215686274509804, 'rgb_2': 0.33803921568627443, 'rgb_3': 0.43137254901960786, 'uvd_1': 0.014263954484705757, 'uvd_2': -0.1015686276156863, 'uvd_3': 0.36366009691215684, 'cmy_1': 0.6784313725490196, 'cmy_2': 0.6619607843137256, 'cmy_3': 0.5686274509803921, 'cmyk_1': 0.25454545454545463, 'cmyk_2': 0.21636363636363673, 'cmyk_3': 0.0, 'cmyk_4': 0.5686274509803921, 'ryb_1': 0.3215686274509804, 'ryb_2': 0.33589087809036655, 'ryb_3': 0.43137254901960786, 'yuv_1': 0.34127623529411755, 'yuv_2': 0.5485537366487876, 'yuv_3': 0.4874856439908959, 'hue_d': 0.6416666666666667, 'hue_a': 0.7401388888888889, 'hsv_1': 0.6416666666666667, 'hsv_2': 0.2545454545454545, 'hsv_3': 0.43137254901960786, 'hsl_1': 0.6416666666666667, 'hsl_2': 0.14583333333333334, 'hsl_3': 0.3764705882352941, 'hcy_1': 0.6416666666666667, 'hcy_2': 0.13677404483155084, 'hcy_3': 0.34127623529411755, 'ard_1': 0.6416666666666667, 'ard_2': 0.11574406901509687, 'ard_3': 0.36366009691215684, 'xyz_1': 0.09637205757143749, 'xyz_2': 0.09606966175225669, 'xyz_3': 0.16095406515189045, 'xyy_1': 0.2727029065002773, 'xyy_2': 0.2718472205174081, 'xyy_3': 0.09606966175225669, 'lab_1': 0.37127585199277546, 'lab_2': 0.5083094709930401, 'lab_3': 0.4292501859458047, 'lch_1': 0.37127585199277546, 'lch_2': 0.1424722218102516, 'lch_3': 0.768607290085022, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500.0, 'hex6_d': '#52566e', 'aaa_d1': 0, 'rgb_d1': 0.3215686274509804, 'rgb_d2': 0.33803921568627443, 'rgb_d3': 0.43137254901960786, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
+har_04={'active': True, 'hex6': '#56526e', 'aaa_1': 0.3330476108917065, 'rgb_1': 0.3382720155199889, 'rgb_2': 0.3215686274509804, 'rgb_3': 0.43137254901960786, 'uvd_1': -0.014465565148800694, 'uvd_2': -0.10145222736708931, 'uvd_3': 0.36373769679600637, 'cmy_1': 0.661727984480011, 'cmy_2': 0.6784313725490196, 'cmy_3': 0.5686274509803921, 'cmyk_1': 0.21582396402184378, 'cmyk_2': 0.25454545454545463, 'cmyk_3': 0.0, 'cmyk_4': 0.5686274509803921, 'ryb_1': 0.3382720155199889, 'ryb_2': 0.3215686274509804, 'ryb_3': 0.43137254901960786, 'yuv_1': 0.3330476108917065, 'yuv_2': 0.5529882184349544, 'yuv_3': 0.5033175035739665, 'hue_d': 0.6920200235571261, 'hue_a': 0.7871294660384767, 'hsv_1': 0.6920200235571261, 'hsv_2': 0.2545454545454545, 'hsv_3': 0.43137254901960786, 'hsl_1': 0.6920200235571261, 'hsl_2': 0.14583333333333334, 'hsl_3': 0.3764705882352941, 'hcy_1': 0.6920200235571261, 'hcy_2': 0.14742422357817853, 'hcy_3': 0.3330476108917065, 'ard_1': 0.6920200235571261, 'ard_2': 0.11593271650873546, 'ard_3': 0.36373769679600637, 'xyz_1': 0.09692795928687342, 'xyz_2': 0.09151033264505404, 'xyz_3': 0.16004493687673596, 'xyy_1': 0.27814239330321466, 'xyy_2': 0.26259608807544155, 'xyy_3': 0.09151033264505404, 'lab_1': 0.3627347445273042, 'lab_2': 0.5165673716905571, 'lab_3': 0.4228845608322268, 'lch_1': 0.3627347445273042, 'lch_2': 0.15775003978156837, 'lch_3': 0.7836806666590168, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#56526e', 'aaa_d1': 0, 'rgb_d1': 0.3382720155199889, 'rgb_d2': 0.3215686274509804, 'rgb_d3': 0.43137254901960786, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
+har_05={'active': True, 'hex6': '#5e526e', 'aaa_1': 0.34010039825400123, 'rgb_1': 0.3714459918242916, 'rgb_2': 0.3215686274509804, 'rgb_3': 0.43137254901960786, 'uvd_1': -0.043195084782307255, 'uvd_2': -0.08486523888319819, 'uvd_3': 0.37479569432691473, 'cmy_1': 0.6285540081757084, 'cmy_2': 0.6784313725490196, 'cmy_3': 0.5686274509803921, 'cmyk_1': 0.13892065531641495, 'cmyk_2': 0.25454545454545463, 'cmyk_3': 0.0, 'cmyk_4': 0.5686274509803921, 'ryb_1': 0.3714459918242916, 'ryb_2': 0.3215686274509804, 'ryb_3': 0.43137254901960786, 'yuv_1': 0.34010039825400123, 'yuv_2': 0.5491874061034742, 'yuv_3': 0.5199044917261179, 'hue_d': 0.7423733804475854, 'hue_a': 0.833286709854731, 'hsv_1': 0.7423733804475854, 'hsv_2': 0.2545454545454545, 'hsv_3': 0.43137254901960786, 'hsl_1': 0.7423733804475854, 'hsl_2': 0.14583333333333334, 'hsl_3': 0.3764705882352941, 'hcy_1': 0.7423733804475854, 'hcy_2': 0.13831217737382132, 'hcy_3': 0.34010039825400123, 'ard_1': 0.7423733804475854, 'ard_2': 0.1420162826867665, 'ard_3': 0.37479569432691473, 'xyz_1': 0.10521378082862769, 'xyz_2': 0.09578271075863731, 'xyz_3': 0.1604333348870617, 'xyy_1': 0.2911043116030749, 'xyy_2': 0.2650105324537763, 'xyy_3': 0.09578271075863731, 'lab_1': 0.3707463675613218, 'lab_2': 0.5226112860860836, 'lab_3': 0.4293645626143241, 'lch_1': 0.3707463675613218, 'lch_2': 0.1483325355157453, 'lch_3': 0.7993069950131011, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#5e526e', 'aaa_d1': 0, 'rgb_d1': 0.3714459918242916, 'rgb_d2': 0.3215686274509804, 'rgb_d3': 0.43137254901960786, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
 harmony_edit=False
 harmony_index=3
 harmony_rule=Analogous
 harmony_span=0.20141342756183744
 hex_copy_paste=True
-hex_sum=False
+hex_sum=True
 hue_shine=True
 huecircle_shape=Triangle
-kac={'active': True, 'hex6': '#e86f14', 'aaa_1': 0.5104094117647059, 'rgb_1': 0.9098039215686274, 'rgb_2': 0.43529411764705883, 'rgb_3': 0.0784313725490196, 'uvd_1': -0.41093773634509806, 'uvd_2': 0.5941176518039217, 'uvd_3': 0.4745100005372549, 'cmy_1': 0.09019607843137256, 'cmy_2': 0.5647058823529412, 'cmy_3': 0.9215686274509804, 'cmyk_1': 0.0, 'cmyk_2': 0.521551724137931, 'cmyk_3': 0.9137931034482759, 'cmyk_4': 0.09019607843137256, 'ryb_1': 0.9098039215686273, 'ryb_2': 0.7036784961918652, 'ryb_3': 0.0784313725490196, 'yuv_1': 0.5104094117647059, 'yuv_2': 0.2672030398708308, 'yuv_3': 0.7536160209575322, 'hue_d': 0.07154088050314467, 'hue_a': 0.12264150943396226, 'hsv_1': 0.07154088050314467, 'hsv_2': 0.9137931034482758, 'hsv_3': 0.9098039215686274, 'hsl_1': 0.07154088050314467, 'hsl_2': 0.8412698412698412, 'hsl_3': 0.49411764705882355, 'hcy_1': 0.07154088050314467, 'hcy_2': 0.846336351287394, 'hcy_3': 0.5104094117647059, 'ard_1': 0.07154088050314467, 'ard_2': 0.8347107438016529, 'ard_3': 0.4745100005372549, 'xyz_1': 0.39093545294960946, 'xyz_2': 0.2858029614379586, 'xyz_3': 0.04119616108926807, 'xyy_1': 0.5445279643900126, 'xyy_2': 0.3980905380523492, 'xyy_3': 0.2858029614379586, 'lab_1': 0.6040941899903188, 'lab_2': 0.5849828711212008, 'lab_3': 0.8229908996853901, 'lch_1': 0.6040941899903188, 'lch_2': 0.6679676928222812, 'lch_3': 0.20905244890098726, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#e86f14', 'aaa_d1': 0, 'rgb_d1': 0.9098039215686274, 'rgb_d2': 0.43529411764705883, 'rgb_d3': 0.0784313725490196, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
-kbc={'active': True, 'hex6': '#ffffff', 'aaa_1': 1.0, 'rgb_1': 1.0, 'rgb_2': 1.0, 'rgb_3': 1.0, 'uvd_1': 0, 'uvd_2': 0, 'uvd_3': 0.9999999999999999, 'cmy_1': 0.0, 'cmy_2': 0.0, 'cmy_3': 0.0, 'cmyk_1': 0.0, 'cmyk_2': 0.0, 'cmyk_3': 0.0, 'cmyk_4': 0.0, 'ryb_1': 1.0, 'ryb_2': 1.0, 'ryb_3': 1.0, 'yuv_1': 1, 'yuv_2': 0.5, 'yuv_3': 0.5, 'hue_d': 0, 'hue_a': 0, 'hsv_1': 0, 'hsv_2': 0, 'hsv_3': 1.0, 'hsl_1': 0, 'hsl_2': 0, 'hsl_3': 1.0, 'hcy_1': 0, 'hcy_2': 0.0, 'hcy_3': 1.0, 'ard_1': 0, 'ard_2': 0, 'ard_3': 0.9999999999999999, 'xyz_1': 0.95047, 'xyz_2': 1.0000001, 'xyz_3': 1.08883, 'xyy_1': 0.31272660439158345, 'xyy_2': 0.3290231524027522, 'xyy_3': 1.0000001, 'lab_1': 1.0000000386666654, 'lab_2': 0.4999999666666677, 'lab_3': 0.5000000333333323, 'lch_1': 1, 'lch_2': 9.428090128241461e-08, 'lch_3': 0.375, 'name': 'White', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#ffffff', 'aaa_d1': 0, 'rgb_d1': 1.0, 'rgb_d2': 1.0, 'rgb_d3': 1.0, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
+kac={'active': True, 'hex6': '#5f526e', 'aaa_1': 0.3403349019607843, 'rgb_1': 0.37254901960784315, 'rgb_2': 0.3215686274509804, 'rgb_3': 0.43137254901960786, 'uvd_1': -0.04415033530980393, 'uvd_2': -0.08431372498039214, 'uvd_3': 0.3771511972114437, 'cmy_1': 0.6274509803921569, 'cmy_2': 0.6784313725490196, 'cmy_3': 0.5686274509803921, 'cmyk_1': 0.13636363636363638, 'cmyk_2': 0.25454545454545463, 'cmyk_3': 0.0, 'cmyk_4': 0.5686274509803921, 'ryb_1': 0.37254901960784315, 'ryb_2': 0.3215686274509804, 'ryb_3': 0.43137254901960786, 'yuv_1': 0.3403349019607843, 'yuv_2': 0.5490610298872729, 'yuv_3': 0.5204560056178936, 'hue_d': 0.7440476190476192, 'hue_a': 0.8348214285714286, 'hsv_1': 0.7440476190476192, 'hsv_2': 0.2545454545454545, 'hsv_3': 0.43137254901960786, 'hsl_1': 0.7440476190476192, 'hsl_2': 0.14583333333333334, 'hsl_3': 0.3764705882352941, 'hcy_1': 0.7440476190476192, 'hcy_2': 0.13800585680434402, 'hcy_3': 0.3403349019607843, 'ard_1': 0.7440476190476192, 'ard_2': 0.1428571428571428, 'ard_3': 0.3771511972114437, 'xyz_1': 0.10550550027334063, 'xyz_2': 0.09593312864594247, 'xyz_3': 0.16044700924045308, 'xyy_1': 0.2915437617526301, 'xyy_2': 0.2650923897775618, 'xyy_3': 0.09593312864594247, 'lab_1': 0.37102405161163476, 'lab_2': 0.5228152552306049, 'lab_3': 0.42958893969859197, 'lch_1': 0.37102405161163476, 'lch_2': 0.14803044665211496, 'lch_3': 0.7998718054000288, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#5f526e', 'aaa_d1': 0, 'rgb_d1': 0.37254901960784315, 'rgb_d2': 0.3215686274509804, 'rgb_d3': 0.43137254901960786, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
+kbc={'active': True, 'hex6': '#a83149', 'aaa_1': 0.2981654979050159, 'rgb_1': 0.658823549747467, 'rgb_2': 0.1921568661928177, 'rgb_3': 0.2862745225429535, 'uvd_1': -0.4041453916920955, 'uvd_2': 0.1392156900938557, 'uvd_3': 0.37908502449964115, 'cmy_1': 0.34117645025253296, 'cmy_2': 0.8078431338071823, 'cmy_3': 0.7137254774570465, 'cmyk_1': 0.0, 'cmyk_2': 0.7083333371029722, 'cmyk_3': 0.5654761845524723, 'cmyk_4': 0.34117645025253296, 'ryb_1': 0.658823549747467, 'ryb_2': 0.1921568661928177, 'ryb_3': 0.2862745225429535, 'yuv_1': 0.2981654979050159, 'yuv_2': 0.4935918434134175, 'yuv_3': 0.7290183209565984, 'hue_d': 0.9663865525199443, 'hue_a': 0.9831932762599721, 'hsv_1': 0.9663865525199443, 'hsv_2': 0.7083333371029722, 'hsv_3': 0.658823549747467, 'hsl_1': 0.9663865525199443, 'hsl_2': 0.548387101293053, 'hsl_3': 0.42549020797014236, 'hcy_1': 0.9663865525199443, 'hcy_2': 0.513879056623581, 'hcy_3': 0.2981654979050159, 'ard_1': 0.9663865525199443, 'ard_2': 0.49310345545978074, 'ard_3': 0.37908502449964115, 'xyz_1': 0.18451079823061375, 'xyz_2': 0.11005037524003601, 'xyz_3': 0.07454632888487056, 'xyy_1': 0.4998836302516955, 'xyy_2': 0.29815263720659, 'xyy_3': 0.11005037524003601, 'lab_1': 0.3958895353052105, 'lab_2': 0.59980607396723, 'lab_3': 0.5701221047951788, 'lch_1': 0.3958895353052105, 'lch_2': 0.24395378235770981, 'lch_3': 0.09747568318020032, 'name': '', 'kkk_percent': 0.5, 'kkk_scale': 6500, 'hex6_d': '#a83149', 'aaa_d1': 0, 'rgb_d1': 0.658823549747467, 'rgb_d2': 0.1921568661928177, 'rgb_d3': 0.2862745225429535, 'cmyk_d1': 0, 'cmyk_d2': 0, 'cmyk_d3': 0, 'cmyk_d4': 0, 'yuv_d1': 0, 'yuv_d2': 0, 'yuv_d3': 0, 'xyz_d1': 0, 'xyz_d2': 0, 'xyz_d3': 0, 'lab_d1': 0, 'lab_d2': 0, 'lab_d3': 0}
 key_1_chan=[KEY 1]
 key_1_factor=1
 key_2_chan=[KEY 2]
@@ -888,31 +889,23 @@ pin_cor=[{'active': False, 'hex6': '#000000', 'aaa_1': 0, 'rgb_1': 0, 'rgb_2': 0
 sample_edit=False
 sample_limit=300
 sample_mode=RGB
-sele_mode=HSV
+sele_mode=YUV
 stops={'aaa_1': 4, 'rgb_1': 4, 'rgb_2': 4, 'rgb_3': 4, 'uvd_1': 4, 'uvd_2': 4, 'uvd_3': 4, 'cmy_1': 4, 'cmy_2': 4, 'cmy_3': 4, 'cmyk_1': 4, 'cmyk_2': 4, 'cmyk_3': 4, 'cmyk_4': 4, 'ryb_1': 4, 'ryb_2': 4, 'ryb_3': 4, 'yuv_1': 4, 'yuv_2': 4, 'yuv_3': 4, 'hsv_1': 6, 'hsv_2': 4, 'hsv_3': 4, 'hsl_1': 6, 'hsl_2': 4, 'hsl_3': 4, 'hcy_1': 6, 'hcy_2': 4, 'hcy_3': 4, 'ard_1': 6, 'ard_2': 4, 'ard_3': 6, 'xyz_1': 4, 'xyz_2': 4, 'xyz_3': 4, 'xyy_1': 4, 'xyy_2': 4, 'xyy_3': 4, 'lab_1': 4, 'lab_2': 4, 'lab_3': 4, 'lch_1': 4, 'lch_2': 4, 'lch_3': 6, 'kkk_1': 4, 'mixer': 2}
 ui_channel=True
 ui_harmony=True
 ui_history=True
-ui_mixer=True
+ui_mixer=False
 ui_pin=False
 wheel_mode=DIGITAL
 wheel_space=HSV
 
 [RecentFiles]
-File1[$e]=$HOME/Pictures/a/cow-alt-2.png
-File2[$e]=$HOME/Pictures/a/cow-alt-3.jpg
-File3[$e]=$HOME/Pictures/a/cow-alt-2.kra
-File4[$e]=$HOME/Pictures/a/cow-alt-4.png
-File5[$e]=$HOME/Pictures/a/cow-alt-4.kra
-File6[$e]=$HOME/Pictures/a/cow-alt-3.kra
-File7[$e]=$HOME/Pictures/a/cow-alt-3.png
-Name1=cow-alt-2.png
-Name2=cow-alt-3.jpg
-Name3=cow-alt-2.kra
-Name4=cow-alt-4.png
-Name5=cow-alt-4.kra
-Name6=cow-alt-3.kra
-Name7=cow-alt-3.png
+File1[$e]=$HOME/Pictures/a/test.kra
+File2[$e]=$HOME/Pictures/card.kra
+File3[$e]=$HOME/Pictures/spectacle/S_20250120_093457.png
+Name1=test.kra
+Name2=card.kra
+Name3=S_20250120_093457.png
 maxRecentFileItems=100
 
 [SelectedTags]
@@ -927,7 +920,7 @@ windowlayouts=All
 workspaces=All
 
 [SvgSymbolCollection]
-currentCollection=0
+currentCollection=1
 
 [SvgTextTool]
 Geometry=AdnQywADAAAAAARLAAABwQAABycAAAOsAAAESwAAAcEAAAcnAAADrAAAAAAAAAAAB4AAAARLAAABwQAABycAAAOs
@@ -999,7 +992,7 @@ Last Used=<!DOCTYPE params>\n<params version="1">\n <param type="internal" name=
 Last Used=<!DOCTYPE params>\n<params version="1">\n <param type="color" name="RGBA_channel0_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel0_background_opacity">100</param>\n <param type="color" name="RGBA_channel0_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel0_foreground_opacity">100</param>\n <param type="string" name="RGBA_channel0_generator"><![CDATA[screentone]]></param>\n <param type="internal" name="RGBA_channel0_generator_screentone_align_to_pixel_grid">true</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_align_to_pixel_grid_x">1</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_align_to_pixel_grid_y">1</param>\n <param type="color" name="RGBA_channel0_generator_screentone_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel0_generator_screentone_background_opacity">100</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_brightness">50</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_constrain_frequency">true</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_contrast">50</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_equalization_mode">2</param>\n <param type="color" name="RGBA_channel0_generator_screentone_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel0_generator_screentone_foreground_opacity">100</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_frequency_x">30</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_frequency_y">30</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_interpolation">1</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_invert">false</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_keep_size_square">true</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_pattern">0</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_position_x">0</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_position_y">0</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_resolution">300</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_rotation">15</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_shape">0</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_shear_x">0</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_shear_y">0</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_size_mode">0</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_size_x">10</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_size_y">10</param>\n <param type="internal" name="RGBA_channel0_generator_screentone_units">0</param>\n <param type="internal" name="RGBA_channel0_hardness">80</param>\n <param type="internal" name="RGBA_channel0_invert">false</param>\n <param type="color" name="RGBA_channel1_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel1_background_opacity">100</param>\n <param type="color" name="RGBA_channel1_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel1_foreground_opacity">100</param>\n <param type="string" name="RGBA_channel1_generator"><![CDATA[screentone]]></param>\n <param type="internal" name="RGBA_channel1_generator_screentone_align_to_pixel_grid">true</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_align_to_pixel_grid_x">1</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_align_to_pixel_grid_y">1</param>\n <param type="color" name="RGBA_channel1_generator_screentone_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel1_generator_screentone_background_opacity">100</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_brightness">50</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_constrain_frequency">true</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_contrast">50</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_equalization_mode">2</param>\n <param type="color" name="RGBA_channel1_generator_screentone_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel1_generator_screentone_foreground_opacity">100</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_frequency_x">30</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_frequency_y">30</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_interpolation">1</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_invert">false</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_keep_size_square">true</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_pattern">0</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_position_x">0</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_position_y">0</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_resolution">300</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_rotation">45</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_shape">0</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_shear_x">0</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_shear_y">0</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_size_mode">0</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_size_x">10</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_size_y">10</param>\n <param type="internal" name="RGBA_channel1_generator_screentone_units">0</param>\n <param type="internal" name="RGBA_channel1_hardness">80</param>\n <param type="internal" name="RGBA_channel1_invert">false</param>\n <param type="color" name="RGBA_channel2_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel2_background_opacity">100</param>\n <param type="color" name="RGBA_channel2_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel2_foreground_opacity">100</param>\n <param type="string" name="RGBA_channel2_generator"><![CDATA[screentone]]></param>\n <param type="internal" name="RGBA_channel2_generator_screentone_align_to_pixel_grid">true</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_align_to_pixel_grid_x">1</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_align_to_pixel_grid_y">1</param>\n <param type="color" name="RGBA_channel2_generator_screentone_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel2_generator_screentone_background_opacity">100</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_brightness">50</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_constrain_frequency">true</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_contrast">50</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_equalization_mode">2</param>\n <param type="color" name="RGBA_channel2_generator_screentone_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="RGBA_channel2_generator_screentone_foreground_opacity">100</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_frequency_x">30</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_frequency_y">30</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_interpolation">1</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_invert">false</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_keep_size_square">true</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_pattern">0</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_position_x">0</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_position_y">0</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_resolution">300</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_rotation">75</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_shape">0</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_shear_x">0</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_shear_y">0</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_size_mode">0</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_size_x">10</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_size_y">10</param>\n <param type="internal" name="RGBA_channel2_generator_screentone_units">0</param>\n <param type="internal" name="RGBA_channel2_hardness">80</param>\n <param type="internal" name="RGBA_channel2_invert">false</param>\n <param type="color" name="alpha_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="alpha_background_opacity">100</param>\n <param type="color" name="alpha_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="alpha_foreground_opacity">100</param>\n <param type="string" name="alpha_generator"><![CDATA[screentone]]></param>\n <param type="internal" name="alpha_generator_screentone_align_to_pixel_grid">true</param>\n <param type="internal" name="alpha_generator_screentone_align_to_pixel_grid_x">1</param>\n <param type="internal" name="alpha_generator_screentone_align_to_pixel_grid_y">1</param>\n <param type="color" name="alpha_generator_screentone_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="alpha_generator_screentone_background_opacity">100</param>\n <param type="internal" name="alpha_generator_screentone_brightness">50</param>\n <param type="internal" name="alpha_generator_screentone_constrain_frequency">true</param>\n <param type="internal" name="alpha_generator_screentone_contrast">50</param>\n <param type="internal" name="alpha_generator_screentone_equalization_mode">2</param>\n <param type="color" name="alpha_generator_screentone_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="alpha_generator_screentone_foreground_opacity">100</param>\n <param type="internal" name="alpha_generator_screentone_frequency_x">30</param>\n <param type="internal" name="alpha_generator_screentone_frequency_y">30</param>\n <param type="internal" name="alpha_generator_screentone_interpolation">1</param>\n <param type="internal" name="alpha_generator_screentone_invert">false</param>\n <param type="internal" name="alpha_generator_screentone_keep_size_square">true</param>\n <param type="internal" name="alpha_generator_screentone_pattern">0</param>\n <param type="internal" name="alpha_generator_screentone_position_x">0</param>\n <param type="internal" name="alpha_generator_screentone_position_y">0</param>\n <param type="internal" name="alpha_generator_screentone_resolution">300</param>\n <param type="internal" name="alpha_generator_screentone_rotation">45</param>\n <param type="internal" name="alpha_generator_screentone_shape">0</param>\n <param type="internal" name="alpha_generator_screentone_shear_x">0</param>\n <param type="internal" name="alpha_generator_screentone_shear_y">0</param>\n <param type="internal" name="alpha_generator_screentone_size_mode">0</param>\n <param type="internal" name="alpha_generator_screentone_size_x">10</param>\n <param type="internal" name="alpha_generator_screentone_size_y">10</param>\n <param type="internal" name="alpha_generator_screentone_units">0</param>\n <param type="internal" name="alpha_hardness">80</param>\n <param type="internal" name="alpha_invert">false</param>\n <param type="string" name="color_model_id"><![CDATA[RGBA]]></param>\n <param type="color" name="intensity_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="intensity_background_opacity">100</param>\n <param type="color" name="intensity_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="intensity_foreground_opacity">100</param>\n <param type="string" name="intensity_generator"><![CDATA[screentone]]></param>\n <param type="internal" name="intensity_generator_screentone_align_to_pixel_grid">true</param>\n <param type="internal" name="intensity_generator_screentone_align_to_pixel_grid_x">1</param>\n <param type="internal" name="intensity_generator_screentone_align_to_pixel_grid_y">1</param>\n <param type="color" name="intensity_generator_screentone_background_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc" b="1"/>\n</color>\n]]></param>\n <param type="internal" name="intensity_generator_screentone_background_opacity">100</param>\n <param type="internal" name="intensity_generator_screentone_brightness">50</param>\n <param type="internal" name="intensity_generator_screentone_constrain_frequency">true</param>\n <param type="internal" name="intensity_generator_screentone_contrast">50</param>\n <param type="internal" name="intensity_generator_screentone_equalization_mode">2</param>\n <param type="color" name="intensity_generator_screentone_foreground_color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param type="internal" name="intensity_generator_screentone_foreground_opacity">100</param>\n <param type="internal" name="intensity_generator_screentone_frequency_x">30</param>\n <param type="internal" name="intensity_generator_screentone_frequency_y">30</param>\n <param type="internal" name="intensity_generator_screentone_interpolation">1</param>\n <param type="internal" name="intensity_generator_screentone_invert">false</param>\n <param type="internal" name="intensity_generator_screentone_keep_size_square">true</param>\n <param type="internal" name="intensity_generator_screentone_pattern">0</param>\n <param type="internal" name="intensity_generator_screentone_position_x">0</param>\n <param type="internal" name="intensity_generator_screentone_position_y">0</param>\n <param type="internal" name="intensity_generator_screentone_resolution">300</param>\n <param type="internal" name="intensity_generator_screentone_rotation">45</param>\n <param type="internal" name="intensity_generator_screentone_shape">0</param>\n <param type="internal" name="intensity_generator_screentone_shear_x">0</param>\n <param type="internal" name="intensity_generator_screentone_shear_y">0</param>\n <param type="internal" name="intensity_generator_screentone_size_mode">0</param>\n <param type="internal" name="intensity_generator_screentone_size_x">10</param>\n <param type="internal" name="intensity_generator_screentone_size_y">10</param>\n <param type="internal" name="intensity_generator_screentone_units">0</param>\n <param type="internal" name="intensity_hardness">80</param>\n <param type="internal" name="intensity_invert">false</param>\n <param type="string" name="mode"><![CDATA[intensity]]></param>\n</params>\n
 
 [hsvadjustment_filter_bookmarks]
-Last Used=<!DOCTYPE params>\n<params version="0">\n <param type="internal" name="colorize">false</param>\n <param type="internal" name="compatibilityMode">false</param>\n <param type="internal" name="h">27</param>\n <param type="internal" name="s">-17</param>\n <param type="internal" name="type">1</param>\n <param type="internal" name="v">25</param>\n</params>\n
+Last Used=<!DOCTYPE params>\n<params version="0">\n <param type="internal" name="colorize">false</param>\n <param type="internal" name="compatibilityMode">false</param>\n <param type="internal" name="h">0</param>\n <param type="internal" name="s">15</param>\n <param type="internal" name="type">1</param>\n <param type="internal" name="v">0</param>\n</params>\n
 
 [indexcolors_filter_bookmarks]
 Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="LFactor" type="internal">1.5199999809265137</param>\n <param name="aFactor" type="internal">0.9399999976158142</param>\n <param name="alphaSteps" type="internal">1</param>\n <param name="bFactor" type="internal">1</param>\n <param name="colorLimit" type="internal">32</param>\n <param name="paletteGen" type="bytearray">AAAAAAH//////////wAAAf//////////AAAB//////////8AAAH//////////wAAAf//i4vi4v39AAAB////////AAAAAAH///////8AAAAAAf///////wAAAAAB//9jY6am9/cAAAH//6CgoKCkpAAAAf//oKCgoKSkAAAB//+goKCgpKQAAAH//xYWMDBtbQAAAf//AAAAAAAAAAAB//8AAAAAAAAAAAH//wAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAAAAAQAAAAEAAAABAAAAAIA</param>\n <param name="reduceColorsEnabled" type="internal">false</param>\n</params>\n
@@ -1025,7 +1018,7 @@ ToolPluginsDisabled=
 Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="halfHeight" type="internal">59</param>\n <param name="halfWidth" type="internal">56</param>\n <param name="irisRadius" type="internal">61</param>\n <param name="irisRotation" type="internal">0</param>\n <param name="irisShape" type="string"><![CDATA[Pentagon (5)]]></param>\n</params>\n
 
 [levels_filter_bookmarks]
-Last Used=<!DOCTYPE params>\n<params version="2">\n <param name="mode">lightness</param>\n <param name="histogram_mode">linear</param>\n <param name="lightness">0.0504854368932039;1;1;0;1</param>\n <param name="number_of_channels">8</param>\n <param name="channel_0">0;1;1;0;1</param>\n <param name="channel_1">0;1;1;0;1</param>\n <param name="channel_2">0;1;1;0;1</param>\n <param name="channel_3">0;1;1;0;1</param>\n <param name="channel_4">0;1;1;0;1</param>\n <param name="channel_5">0;1;1;0;1</param>\n <param name="channel_6">0;1;1;0;1</param>\n <param name="channel_7">0;1;1;0;1</param>\n <param name="blackvalue" type="internal">13</param>\n <param name="whitevalue" type="internal">255</param>\n <param name="gammavalue" type="internal">1</param>\n <param name="outblackvalue" type="internal">0</param>\n <param name="outwhitevalue" type="internal">255</param>\n</params>\n
+Last Used=<!DOCTYPE params>\n<params version="2">\n <param name="mode">lightness</param>\n <param name="histogram_mode">linear</param>\n <param name="lightness">0.279611650485437;0.955339805825243;0.985709299190505;0;1</param>\n <param name="number_of_channels">8</param>\n <param name="channel_0">0;1;1;0;1</param>\n <param name="channel_1">0;1;1;0;1</param>\n <param name="channel_2">0;1;1;0;1</param>\n <param name="channel_3">0;1;1;0;1</param>\n <param name="channel_4">0;1;1;0;1</param>\n <param name="channel_5">0;1;1;0;1</param>\n <param name="channel_6">0;1;1;0;1</param>\n <param name="channel_7">0;1;1;0;1</param>\n <param type="internal" name="blackvalue">71</param>\n <param type="internal" name="whitevalue">244</param>\n <param type="internal" name="gammavalue">0.985709299190505</param>\n <param type="internal" name="outblackvalue">0</param>\n <param type="internal" name="outwhitevalue">255</param>\n</params>\n
 
 [maximize_filter_bookmarks]
 Last Used=<!DOCTYPE params>\n<params version="1"/>\n
@@ -1054,7 +1047,7 @@ Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="nTransfers">8</
 [python]
 enable_ai_diffusion=false
 enable_mixer_slider_docker=true
-enable_pigment_o=false
+enable_pigment_o=true
 
 [session]
 previousSession=main
