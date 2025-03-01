@@ -16,9 +16,9 @@ UseSystemFont=false
 [ExtractDialog]
 1920x1080 screen: Height=516
 1920x1080 screen: Width=1214
-2 screens: Height=560
-2 screens: Width=1239
-DirHistory[$e]=/run/media/kew/6F7F-D07F/,$HOME/things/_w/uq-paper-24/data/paderborn/original/,$HOME/programs/cs327/,$HOME/things/_w/uq-paper-24/data/paderborn/original/val/,$HOME/things/!w/gbnw-battery/,$HOME/things/!w/uconn-xai-uq/,$HOME/programs/
+2 screens: Height=540
+2 screens: Width=1210
+DirHistory[$e]=/mnt/secondary/large/mc/,/run/media/kew/6F7F-D07F/,$HOME/things/_w/uq-paper-24/data/paderborn/original/,$HOME/programs/cs327/,$HOME/things/_w/uq-paper-24/data/paderborn/original/val/,$HOME/things/!w/gbnw-battery/,$HOME/things/!w/uconn-xai-uq/,$HOME/programs/
 eDP-1 Height 1920x1080=544
 eDP-1 Width 1920x1080=1226
 
@@ -29,7 +29,7 @@ ViewPropsTimestamp=2022,7,29,9,19,53.832
 
 [IconsMode]
 IconSize=96
-PreviewSize=208
+PreviewSize=144
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -51,7 +51,6 @@ eDP-1 Width 1920x1080 eDP-1=359
 
 [MainWindow]
 MenuBar=Disabled
-ToolBarsMovable=Disabled
 
 [Open-with settings]
 CompletionMode=1

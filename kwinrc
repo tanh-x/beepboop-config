@@ -40,7 +40,7 @@ desktopchangeosdEnabled=false
 diminactiveEnabled=true
 forceblurEnabled=true
 krohnkiteEnabled=false
-kzonesEnabled=true
+kzonesEnabled=false
 mousemarkEnabled=true
 poloniumEnabled=false
 synchronizeskipswitcherEnabled=false
@@ -175,7 +175,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][96be3abc-8549-5321-a026-86463d17c88e]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.682421875},{"width":0.31757812500000004}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5804687500000006},{"width":0.41953124999999936}]}
 
 [Tiling][9a0586b0-f4d6-5e45-ae11-c0b1f21b7d3e]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -223,7 +223,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][f742c6fb-ce00-5fb6-9ca5-6f266a7335f8]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.625},{"width":0.375}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5755208333333334},{"width":0.42447916666666663}]}
 
 [Tiling][f79b04bf-7247-52b5-b755-725c143d4094]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.588953488372093},{"width":0.41104651162790695}]}

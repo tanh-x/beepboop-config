@@ -10,6 +10,9 @@
 !/rc/
 !/rc/**
 
+!/jetbrains-custom/
+!/jetbrains-custom/**
+
 
 !kritarc
 !kwinrc
